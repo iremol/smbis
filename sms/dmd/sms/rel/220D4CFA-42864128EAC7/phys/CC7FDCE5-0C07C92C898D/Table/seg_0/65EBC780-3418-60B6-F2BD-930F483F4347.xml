@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.TableProxyDB2v80" name="attregdetail" directorySegmentName="seg_0" id="65EBC780-3418-60B6-F2BD-930F483F4347">
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<schemaObject>974B2E02-41CD-5F78-2D61-07B8339E7083</schemaObject>
+<numberOfRows>0</numberOfRows>
+<owner>OWNER_IMPLICIT</owner>
+<materializedQuery>NO</materializedQuery>
+<materializedQueryChanged>false</materializedQueryChanged>
+<mqColumnDefaults>EXCLUDING</mqColumnDefaults>
+<mqIdentityColumnAttr>EXCLUDE</mqIdentityColumnAttr>
+<mqmaintenance>BY SYSTEM</mqmaintenance>
+<mqQueryDefinitionChanged>false</mqQueryDefinitionChanged>
+<mqQueryOptimization>ENABLE</mqQueryOptimization>
+<mqStatus>MATERIALIZED QUERY</mqStatus>
+<partitioned>NO</partitioned>
+<tableAccess>NOT VOLATILE</tableAccess>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="battendance" id="1029916F-6CD4-1E85-29B0-75219EA153CE">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI83" id="82D881C1-EDC5-9126-7643-87EE3FF84B18">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>1029916F-6CD4-1E85-29B0-75219EA153CE</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>false</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="ssattregdetail" id="6EEEEFEA-3784-5161-2394-BDA5F1F354C6">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI79" id="49699D5A-0C1A-9CF0-53CC-19E21A1EF5EC">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>6EEEEFEA-3784-5161-2394-BDA5F1F354C6</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>nextval(&apos;teaching.attregdetail_ssattregdetail_seq&apos;::regclass)</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vstudent" id="7A7E2ABF-1128-C8F6-7A9E-3EFA532EE0DB">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI84" id="B99A0EE2-0FD4-A31A-F17C-5A01741B5BFE">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>7A7E2ABF-1128-C8F6-7A9E-3EFA532EE0DB</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vfirstname" id="B3FEDBA4-1066-36E7-C1D8-8E4E29781902">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI81" id="C9476C17-0C1C-B71E-2921-B5FBDD540335">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>B3FEDBA4-1066-36E7-C1D8-8E4E29781902</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="contactdate" id="D1778B7A-E16F-BD53-9440-2CAE84E2BC5E">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI80" id="B6B108DD-DFAF-1CD4-D64B-6573BCD0A31B">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>D1778B7A-E16F-BD53-9440-2CAE84E2BC5E</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vlastname" id="DA14E003-032D-E5D8-AC81-1C7BAB702CE7">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI82" id="C64FC83A-1677-2A97-2ECC-CD4F01C11D0F">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>DA14E003-032D-E5D8-AC81-1C7BAB702CE7</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.db2.v80.FKProxyDB2v80" name="fk_student" id="0AF27D8C-1675-EA15-DEEF-D9F465193B11">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<deleteRule>RESTRICT</deleteRule>
+<enforced>YES</enforced>
+</ForeignKey>
+</foreignKeys>
+</TableProxyDB2v80>

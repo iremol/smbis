@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8447EE83-55DC-7CEB-7E3D-FF2017F995F3" schemaObject="974B2E02-41CD-5F78-2D61-07B8339E7083" name="attreg_attregdetail">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>attreg_attregdetail</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vattreg" id="A2D2F6F5-4941-BE8E-4D1F-11C49FB2D109">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attreg_attregdetail</sourceObjSchema>
+<sourceObjName>vattreg</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FC18123-7211-AA16-26B8-1F20BB576A6E" referredColumn="EE9008E1-A351-0A9A-AF50-E2431A7377A6"/>
+</associations>
+</Column>
+<Column name="ssattregdetail" id="59A5715D-4750-2103-2090-D8EC4EBE54C1">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attreg_attregdetail</sourceObjSchema>
+<sourceObjName>ssattregdetail</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB7D2E15-CCDD-A4E4-C904-D3F76D0E0809" referredColumn="6EEEEFEA-3784-5161-2394-BDA5F1F354C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3927BB6A-3A46-6F1C-44CF-149B48D1C81D" name="fkattreg">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2D2F6F5-4941-BE8E-4D1F-11C49FB2D109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9343C596-35DB-51CE-9B69-5BFFC17D3407" name="fkattregdetail">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59A5715D-4750-2103-2090-D8EC4EBE54C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE23A3EA-CB55-2F99-EBBE-0091E617EFEC" schemaObject="1749930F-98AB-7FCD-8E48-33E21DA5E7EF" name="login">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>login</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>5F3DDFE0-0498-8EDD-B8D8-BFC2F0D2ABAF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vusername" id="2A64E498-79EC-05AE-42CE-CF7BE24FA711">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>209A37E8-40D8-65A1-3929-8E71C6B86792</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vpassword" id="D966C67B-B8AC-CCDD-7001-0ADC1B26C490">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>B25F5F60-7AED-BB89-274C-1B9E001FBB7A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3792924F-207C-AD62-17FD-C2A67FF2FAE3" name="login_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>login_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>F9B9F124-312E-076C-269A-F7135036B39D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A64E498-79EC-05AE-42CE-CF7BE24FA711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

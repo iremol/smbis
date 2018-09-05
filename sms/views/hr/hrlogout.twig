@@ -1,0 +1,13 @@
+{%extends "hrlayout.twig"%}
+{%block title %}
+    Logged out
+{%endblock%}
+
+{%block content %}
+    <div style='width: 100%;'>
+        <div style='display: table;width: 75%; '>
+            {% if msg %}
+                <strong>Message: {{msg}}</strong>
+            {% endif %}
+            
+        {%endblock %}{# empty Twig template #}

@@ -1,0 +1,47 @@
+{%extends "hrlayout.twig"%}
+{%block title %}
+    Edit Employee
+{%endblock%}
+
+{%block content %}
+    <div style='width: 100%;'>
+        <div style='display: table;width: 75%; '>
+            {% if msg %}
+                <strong>Message: {{msg}}</strong>
+            {% endif %}
+
+            {% for r in row %}
+                <span>Employee id: {{r.vemployee}}</span>
+                <form action="/hr/updateemp/{{r.vemployee}}" method="post" >
+                    
+                    <div class="result">
+                        <p>
+                            <span><img src="{{r.vpicture}}" width="100" height="100"/></span>
+                        </p>
+                        <p>
+                            <span class="lbl">Firstname: </span><span class="stext"> {{r.vfirstname}}</span> <span class="lbl">Surname:</span><span class="stext">{{r.vlastname}}</span>
+                        </p>
+                        <p>
+                            <span class="lbl">Address One: </span><span class="ltext"><input name="vaddress_one" id="vaddress_one" value="{{r.vaddress_one}}" size="50"/></span>
+                        </p>
+                        <p>
+                           <span class="lbl">Address Two: </span><span class="ltext"><input name="vaddress_two" id="vaddress_two" value="{{r.vaddress_two}}" size="50"/></span>
+                        </p>
+                        <p>
+                            <span class="lbl">Country: </span><span class="stext">{{r.vcountry}}</span> <span class="lbl">State of origin: </span><span class="stext">{{r.vstateoforigin}}</span>
+                        </p>
+                        <p>
+                            <span class="lbl">Date of employ: </span><span class="stext">{{r.ddateofemp}}</span>
+                        </p>
+                        <p>
+                            <span class="lbl">Department: </span><span class="stext">{{r.vdepartment}}</span>
+                            <span class="lbl">Position: </span><span class="stext">{{r.vposition}}</span>
+                        </p>
+                    </div>
+                    <div>
+                        <a href="/hr/emp/search"><button type="button">Return to <i>Search</i></button></a>
+                        <button class="blue" type="submit">Save <i>Updates</i></button>
+                    </div>
+                </form>
+            {% endfor %}
+        {%endblock %}

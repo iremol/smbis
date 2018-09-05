@@ -1,0 +1,30 @@
+{%extends "mgtlayout.twig"%}
+{%block title %}
+    New Position
+{%endblock%}
+
+{%block content %}
+    {% if msg%}
+        <p>Message: {{msg}}
+            <script>
+                // window.location.href = '/mgt/classroom/new';
+            </script>
+        {% endif%}
+
+    <form id="form" action="/mgt/position/save" method="post">
+        <div id="row">
+            <h3>New Position</h3>
+            <h2><span id=""></span></h3>
+        </div>
+        <div id='row'>
+            <label for='vdesc'>Name</label>
+            <input type="text" id='vdesc' name='vdesc' required size="50"/>
+        </div>
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Create</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+
+    </form>
+{%endblock %}{# empty Twig template #}

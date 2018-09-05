@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.TableProxyDB2v80" name="bioinfo" directorySegmentName="seg_0" id="87604299-484F-CEA9-C0D3-0B11041A68D8">
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<schemaObject>335ABB46-914C-F32B-1303-F2F4583E6259</schemaObject>
+<numberOfRows>0</numberOfRows>
+<owner>OWNER_IMPLICIT</owner>
+<materializedQuery>NO</materializedQuery>
+<materializedQueryChanged>false</materializedQueryChanged>
+<mqColumnDefaults>EXCLUDING</mqColumnDefaults>
+<mqIdentityColumnAttr>EXCLUDE</mqIdentityColumnAttr>
+<mqmaintenance>BY SYSTEM</mqmaintenance>
+<mqQueryDefinitionChanged>false</mqQueryDefinitionChanged>
+<mqQueryOptimization>ENABLE</mqQueryOptimization>
+<mqStatus>MATERIALIZED QUERY</mqStatus>
+<partitioned>NO</partitioned>
+<tableAccess>NOT VOLATILE</tableAccess>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vsurname" id="009C086C-A686-4343-3053-B1381AE2AA35">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI40" id="B67A5FBE-856A-CCCC-0CBA-557254CDFBA2">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>009C086C-A686-4343-3053-B1381AE2AA35</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vbio_info" id="199D2CCF-0BB0-1B8A-1739-CDEF59C229D1">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI39" id="95723346-E2A9-E6CE-3B14-9F50F3EE77EC">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>199D2CCF-0BB0-1B8A-1739-CDEF59C229D1</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vpic" id="328FFFB0-59D0-EFE8-8BF4-0911075D19D6">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI46" id="E0C06022-5530-BD4F-F221-2A6AA166AE34">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>328FFFB0-59D0-EFE8-8BF4-0911075D19D6</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vfirstname" id="4215C519-CDEA-6D45-C07F-6994446D5FD0">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI41" id="974C223D-772F-48B0-2A88-F2F540234E35">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>4215C519-CDEA-6D45-C07F-6994446D5FD0</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vgender" id="7ABF5880-3FAB-C3A6-2162-E81370660F1E">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI43" id="CFA12B16-48FA-F04F-25ED-7978D49B32F6">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>7ABF5880-3FAB-C3A6-2162-E81370660F1E</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="ddob" id="C83DAF41-8853-94AE-7D37-B39B583A7A1C">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI44" id="F1F2EB0A-7982-074E-A272-FD8FF2ABE6AD">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>C83DAF41-8853-94AE-7D37-B39B583A7A1C</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vaddress" id="CC850851-4CA9-AA25-C6B2-ACCCC90AFE4B">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI45" id="FEF7B28D-96D1-8D0A-2DA3-8EB69E1BA483">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>CC850851-4CA9-AA25-C6B2-ACCCC90AFE4B</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vothernames" id="FEC06ADB-E80D-38A6-5D51-A66AFC826A62">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI42" id="A73F9918-5B35-6EBB-96E8-4F037EA4F349">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>FEC06ADB-E80D-38A6-5D51-A66AFC826A62</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+</columnProxies>
+</TableProxyDB2v80>

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9C8A861-F86C-3F13-BABF-9602B6D101DB" schemaObject="1749930F-98AB-7FCD-8E48-33E21DA5E7EF" name="bioinfo">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>bioinfo</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>C8AE255C-ED14-7134-028E-3B079056E1D8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vbio_info" id="15FA6B1C-151C-5A57-DF8F-5AAFF0516454">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>bioinfo</sourceObjSchema>
+<sourceObjName>vbio_info</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>77B2CD28-D301-D2FF-60F4-B6F9FD1E8C5C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vsurname" id="7EB0F401-8108-D7AB-6709-1E6AFFC9C395">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>bioinfo</sourceObjSchema>
+<sourceObjName>vsurname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>7861F90D-141A-0688-30F4-12F9035F65F0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vfirstname" id="3CC85AF7-E1D5-47A3-5112-2EF5710D0497">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>bioinfo</sourceObjSchema>
+<sourceObjName>vfirstname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>DC1C44D5-7170-0DFC-4F70-C37545F7F1DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vothernames" id="4CCAF5CD-9FA5-1AA4-0F66-82B75B2A6A66">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>bioinfo</sourceObjSchema>
+<sourceObjName>vothernames</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>9F13C798-D705-F0F9-29FB-61D297F4444C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vgender" id="6B3998FA-0DC1-2783-DCED-6D47BDA971AF">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>bioinfo</sourceObjSchema>
+<sourceObjName>vgender</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>6282B8A8-48CF-D34E-04DC-C9C8ED98F43B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ddob" id="F942F545-0649-5834-7AC6-8907E3F5620F">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>bioinfo</sourceObjSchema>
+<sourceObjName>ddob</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>97F68EC6-0BD4-9CE1-1ED8-3288648D837D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vaddress" id="C4DFAE97-5FB1-D80B-7F20-415EE9ACF642">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>bioinfo</sourceObjSchema>
+<sourceObjName>vaddress</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>1ED76B79-C805-E862-FBE2-C3C3FBB46A77</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vpic" id="7206E156-8E6C-5D7F-58E1-14A042FD295D">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>bioinfo</sourceObjSchema>
+<sourceObjName>vpic</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>AE86D1D4-D070-D5B6-7C03-4E2C8905B66F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01822986-AA8D-FFA7-ECB7-95F512629D91" name="bioinfo_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>bioinfo_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>A3E90510-821F-1DEC-B6C5-FF0D240ADCF0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15FA6B1C-151C-5A57-DF8F-5AAFF0516454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="bioinfo_vgender_check" directorySegmentName="seg_0" id="496F9AA4-DEBD-B625-3F2B-B2A9E6171FC3">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>75045119-CD83-3C6B-05E4-A7C91FFDF42C</importedID>
+<rule>(((vgender)::text = ANY ((ARRAY[&apos;Male&apos;::character varying, &apos;Female&apos;::character varying])::text[])))</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

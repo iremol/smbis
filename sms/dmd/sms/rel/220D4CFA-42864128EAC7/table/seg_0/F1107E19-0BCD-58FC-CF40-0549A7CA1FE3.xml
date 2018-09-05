@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1107E19-0BCD-58FC-CF40-0549A7CA1FE3" schemaObject="335ABB46-914C-F32B-1303-F2F4583E6259" name="login">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>login</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vusername" id="C0F88859-74CB-BBC7-FC32-56A1859BDD43">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>login</sourceObjSchema>
+<sourceObjName>vusername</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vpassword" id="5CE05545-42CD-E325-A979-4C0FDE7BB821">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>login</sourceObjSchema>
+<sourceObjName>vpassword</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7FE8683-FED6-5012-0EAB-59FDF4E08B18" name="login_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>login_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0F88859-74CB-BBC7-FC32-56A1859BDD43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

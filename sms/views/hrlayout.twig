@@ -1,0 +1,61 @@
+{# empty Twig template #}
+<html>
+    <head>
+        <title>{%block title %}{%endblock%}</title>
+        <link rel="icon" type="image/x-icon" href="../../images/favicon.ico"/>
+        <link type="text/css" rel="stylesheet" href="../../css/main.css"/>
+        <script type="text/javascript" src="../../js/main.js"></script>
+    </head>
+    <body>
+        <div id='nav'>
+            {#<ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Apply</li>
+                <li>FAQs</li>
+                <li><a href="../src/testviewtestimony.php">Testimony</a></li>
+                <li>Contact us</li>
+            </ul>#}
+            <h1>School Management Service </h1>
+        </div>
+
+        <div id="container">
+
+            <!--Start of Sidebar-->
+            <div id='sidenav'>
+                <ul>
+                    {#{dump(_context)}#}
+                    {% if uname %}
+                        <li style="background-color: #6f6; color:#050">{{uname | upper}}</li>
+                        <li>Employee<ul>
+                                <li class="c"><a href='/hr/emp/create'>New</a></li>
+{#                                <li class="c"><a href='/admission/granted'>Transfer</a></li>#}
+                                <li class="c"><a href='/hr/emp/search'>Search</a></li>
+                                {#<li class="c"><a href='/admission/granted'>Delete</a></li>#}
+                            </ul></li>
+                        {#<li>Student<ul>
+                                <li class="c"><a href='/admission/student/search'>Search</a></li>
+                            </ul></li>#}
+                        <li class="c"><a href='/hr/logout' >Logout</a></li>
+                        {% else %}
+                        <li class="c"><a href='/hr/login' >Login</a></li>
+                        <!--<li class="c"><a href='/application/new' >New Application</a></li>-->
+                    {% endif %}
+                        <!--<li style="background-color: #6f6; color:#050">{{app}}</li>-->
+
+<!--<li class="c"><a href={{link}} >{{command}}</a></li>-->
+
+                    <!--<li class="c"><a href='../login.php' >Sponsor Login</a></li>-->
+                </ul>
+            </div>
+            <!--End of Sidebar-->
+
+            <!-- Start of Main Content-->
+            <div id="content">
+                <!--<h1>SMS Software</h1>-->
+                {%block content %} {%endblock%}
+            </div>
+            <!-- End of Main Content-->
+        </div>
+    </body>
+</html>

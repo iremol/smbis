@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEFCE2BE-B07B-6D17-7675-1153407A50D2" schemaObject="1F4A33DC-AB49-9418-B9F1-45084FD2878F" name="department">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>department</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vdepartment" id="4621CE61-E083-DB5A-390B-74963278484D">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>department</sourceObjSchema>
+<sourceObjName>vdepartment</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdescription" id="5285FE03-C8D6-C3A8-97E4-8786D9A20FAF">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>department</sourceObjSchema>
+<sourceObjName>vdescription</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA3A6D70-D0A4-2458-8285-A4D17A8D7B4C" name="department_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>department_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4621CE61-E083-DB5A-390B-74963278484D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

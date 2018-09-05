@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D19C5616-B699-3883-7664-CB9EFB2F65ED" schemaObject="854DE4C4-C9DB-F4AE-022F-A3692A790E24" name="department">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>department</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>C6FA1E53-9C0E-34D5-2174-49C660C26D91</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vdepartment" id="B8F8C770-4201-EC2A-A5DD-889B8C2AAF24">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>department</sourceObjSchema>
+<sourceObjName>vdepartment</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>29263146-6A6B-8908-0DEB-C140ECD14AD8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdescription" id="FC1BFE74-D836-F35A-3A80-C8BB0D6757D0">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>department</sourceObjSchema>
+<sourceObjName>vdescription</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>A6B7DB75-A076-399A-6D89-36F8B73048F7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0128300F-23B1-4E17-E759-E782CA366D4E" name="department_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>department_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>3A9216E8-AB37-0BC3-92FC-022E29353C8D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8F8C770-4201-EC2A-A5DD-889B8C2AAF24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

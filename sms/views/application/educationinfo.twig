@@ -1,0 +1,34 @@
+{%extends "layout.twig"%}
+{%block title %}
+    New Application::Education Information
+{%endblock%}
+
+{%block content %}
+
+    <form id="form" action="/applicant/education/save" method="post">
+        <div id="row">
+            <h2>Education Information</h2>
+            <h2><span>Step 4</span></h2>
+        </div> 
+        <div id="row">
+            <input id="vguardian_info" name="vguardian_info" type="hidden" size="50" value="10001">
+        </div>
+        <div id="row">
+            <label for="vtrainer_name">Trainer: </label>
+            <input type="text" id="vtrainer_name" name="vtrainer_name" required/>
+        </div>
+        <div id="row">
+            <label for="vphone_num">Phone Number: </label>
+            <input id="vphone_num" name="vphone_num" type="text" size="20" required>
+        </div>
+        <div id="row">
+            <label for="vaddress">Address </label>
+            <input id="vaddress" name="vaddress" type="text" size="50" required/>
+        </div>
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Next</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+    </form>
+{%endblock %}

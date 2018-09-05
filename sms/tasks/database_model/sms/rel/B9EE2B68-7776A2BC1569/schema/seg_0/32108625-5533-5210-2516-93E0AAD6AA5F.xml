@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="admission" directorySegmentName="seg_0" id="32108625-5533-5210-2516-93E0AAD6AA5F">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>10898517-8D4F-DDB2-93C6-02303FC61C08</importedID>
+</SchemaObject>

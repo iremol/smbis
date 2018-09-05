@@ -1,0 +1,291 @@
+{
+    "applicant/bioinfo/save": {
+        "controller" : "BioInfo",
+        "method" : "persist"
+    },
+    "applicant/bioinfo/new": {
+        "controller" : "BioInfo",
+        "login" : true,
+        "method" : "showNew"
+    },
+    "applicant/guardian/save": {
+        "controller" : "GuardianInfo",
+        "method"   : "persist"
+    },
+    "applicant/guardian/new": {
+        "controller" : "Login",
+        "login" : true,
+        "method"   : "navigate"
+    },
+    "applicant/login/new": {
+        "controller" : "Login",
+        "method"   : "showNew"
+    },
+    "applicant/login/save": {
+        "controller" : "Login",
+        "method"   : "persist"
+    },
+    "applicant/login/authenticate" : {
+        "controller" : "Login",
+        "method"   : "authenticate"
+    },
+    
+    "applicant/login/login" : {
+        "controller" : "Login",
+        "method"   : "login"
+    },
+     "applicant/login/logout" : {
+        "controller" : "Login",
+        "method"   : "logout"
+    },
+    "applicant/education/save" : {
+        "controller" : "EducationInfo",
+        "method"   : "persist"
+    },
+    "applicant/education/new": {
+        "controller" : "Login",
+        "login" : true,
+        "method"   : "navigate"
+    },
+    "application/new": {
+        "controller" : "Application",
+        "method"   : "showNew"
+    },
+    "application/process": {
+        "controller" : "Application",
+        "method"   : "persist"
+    },
+    "application/home": {
+        "controller" : "Login",
+        "method"   : "successLogin"
+    },
+    "application/view": {
+        "controller" : "Application",
+        "method"   : "viewDetail"
+    },
+    "admission/login/save": {
+        "controller" : "Login",
+        "method"   : "persistAO"
+    },
+    "admission/login/create": {
+        "controller" : "Login",
+        "method"   : "createAOLogin"
+    },
+    "admission/login/authenticate": {
+        "controller" : "Login",
+        "method"   : "aoAuthenticate"
+    },
+    "admission/login": {
+        "controller" : "Login",
+        "method"   : "showLogin"
+    },
+    "admission/home": {
+        "controller" : "Login",
+        "method"   : "successAoLogin"
+    },
+    "admission/logout": {
+        "controller" : "Login",
+        "method"   : "aoLogout"
+    },
+    "admission/c/view": {
+        "controller" : "Candidate",
+        "method"   : "getAllNoAdmission"
+    },
+    "admission/c/:id": {
+        "controller" : "Application",
+        "method"   : "viewForAoDetail",
+        "params": {
+            "id": "string"
+        }
+    },
+    "admission/grant/:id": {
+        "controller" : "Candidate",
+        "method"   : "updateAdmissionGranted",
+        "params": {
+            "id": "string"
+        }
+    },
+    "admission/deny/:id": {
+        "controller" : "Candidate",
+        "method"   : "updateAdmissionDenied",
+        "params": {
+            "id": "string"
+        }
+    },
+    "admission/granted": {
+        "controller" : "Candidate",
+        "method"   : "getAllGranted"
+    },
+    "admission/transfer/:id": {
+        "controller" : "Student",
+        "method"   : "showTransfer",
+        "params": {
+            "id": "string"
+        }
+    },
+     "admission/student/save": {
+        "controller" : "Student",
+        "method"   : "persist"
+    },
+    "admission/student/search": {
+        "controller" : "Student",
+        "method"   : "search"
+    },
+    "admission/student/s": {
+        "controller" : "Student",
+        "method"   : "searchStudent"
+    },
+    "admission/update/:id": {
+        "controller" : "Student",
+        "method"   : "update",
+        "params": {
+            "id": "string"
+        }
+    },
+    "admission/updatest/:id": {
+        "controller" : "Student",
+        "method"   : "updateStudent",
+        "params": {
+            "id": "string"
+        }
+    },
+    "mgt/login/save": {
+        "controller" : "Login",
+        "method"   : "persistMgt"
+    },
+    "mgt/login/create": {
+        "controller" : "Login",
+        "method"   : "createMgtLogin"
+    },
+    "mgt/login/authenticate": {
+        "controller" : "Login",
+        "method"   : "mgtAuthenticate"
+    },
+    "mgt/classroom/new": {
+        "controller" : "Classroom",
+        "method"   : "newroom"
+    },
+    "mgt/department/new": {
+        "controller" : "Management",
+        "method"   : "showCreateDept"
+    },
+    "mgt/department/save": {
+        "controller" : "Department",
+        "method"   : "persist"
+    },
+    "mgt/position/new": {
+        "controller" : "Management",
+        "method"   : "showCreatePos"
+    },
+    "mgt/position/save": {
+        "controller" : "Position",
+        "method"   : "persist"
+    },
+     "mgt/classroom/save": {
+        "controller" : "Classroom",
+        "method"   : "persist"
+    },
+     "mgt/class/save": {
+        "controller" : "Class",
+        "method"   : "persist"
+    },
+     "mgt/class/new": {
+        "controller" : "Class",
+        "method"   : "newClass"
+    },
+    "mgt/classes/view": {
+        "controller" : "Class",
+        "method"   : "viewClasses"
+    },
+    "mgt/teachers/view": {
+        "controller" : "Management",
+        "method"   : "viewTeachers"
+    },
+    "mgt/login": {
+        "controller" : "Login",
+        "method"   : "showMgtLogin"
+    },
+    "mgt/logout": {
+        "controller" : "Login",
+        "method"   : "mgtLogout"
+    },
+    "mgt/home": {
+        "controller" : "Login",
+        "method"   : "successMgtLogin"
+    },
+    "mgt/att/inactive": {
+        "controller" : "Attendance",
+        "method"    : "showNonGenerated"
+    },
+    "mgt/register/create": {
+        "controller" : "Attendance",
+        "method"    : "createRegister"
+    },
+    "mgt/register/new": {
+        "controller" : "Attendance",
+        "method"    : "showCreateAttendance"        
+    },
+    "hr/emp/new": {
+        "controller" : "Class",
+        "method"   : "newClass"
+    },
+    "hr/home": {
+        "controller" : "HumanResource",
+        "method"   : "showHome"
+    },
+    "hr/login": {
+        "controller" : "Login",
+        "method"   : "showHRLogin"
+    },
+    "hr/login/authenticate": {
+        "controller" : "Login",
+        "method"   : "hrAuthenticate"
+    },
+    "hr/logout": {
+        "controller" : "Login",
+        "method"   : "hrLogout"
+    },
+    "hr/login/create": {
+        "controller" : "HumanResource",
+        "method"   : "showLoginCreate"
+    },
+    "hr/login/save": {
+        "controller" : "Login",
+        "method"   : "persistHR"
+    },
+    "hr/emp/create": {
+        "controller" : "HumanResource",
+        "method"   : "showEmpCreate"
+    },
+    "hr/emp/processcreate": {
+        "controller" : "Employee",
+        "method"   : "persist"
+    },
+    "hr/emp/search": {
+        "controller" : "HumanResource",
+        "method"   : "showEmpSearch"
+    },
+    "hr/emp/processsearch": {
+        "controller" : "Employee",
+        "method"   : "searchEmployee"
+    },
+    
+    "hr/emp/:id": {
+        "controller" : "HumanResource",
+        "method"   : "showEmpUpdate",
+        "params": {
+            "id": "string"
+        }
+    },
+    "hr/updateemp/:id": {
+        "controller" : "Employee",
+        "method"   : "updateEmployee",
+        "params": {
+            "id": "string"
+        }
+    },
+    "teacher/login" : {
+        "controller" : "Login",
+        "method" : "showTeachingLogin"
+    }
+}

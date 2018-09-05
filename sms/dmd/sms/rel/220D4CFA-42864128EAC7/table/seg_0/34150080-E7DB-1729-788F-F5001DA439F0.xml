@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34150080-E7DB-1729-788F-F5001DA439F0" schemaObject="335ABB46-914C-F32B-1303-F2F4583E6259" name="siblings">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>siblings</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vsibling" id="CF4B055C-7EA9-F2E5-1B74-ED1418E5DE5E">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>siblings</sourceObjSchema>
+<sourceObjName>vsibling</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vsurname" id="B34D7A90-4754-E177-50C9-3262EBC30E45">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>siblings</sourceObjSchema>
+<sourceObjName>vsurname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vfirstname" id="3CEDBE69-A231-1DDE-DE16-14C676EF6ACF">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>siblings</sourceObjSchema>
+<sourceObjName>vfirstname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vothernames" id="42E5491F-8B88-B4E0-2FC7-E4FCDECA3268">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>siblings</sourceObjSchema>
+<sourceObjName>vothernames</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22A01C3F-4E50-F06F-F677-FDD32BDEA913" name="siblings_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>siblings_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF4B055C-7EA9-F2E5-1B74-ED1418E5DE5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

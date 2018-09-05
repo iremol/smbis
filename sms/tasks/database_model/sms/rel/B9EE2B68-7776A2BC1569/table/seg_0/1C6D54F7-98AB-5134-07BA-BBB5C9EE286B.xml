@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6D54F7-98AB-5134-07BA-BBB5C9EE286B" schemaObject="1749930F-98AB-7FCD-8E48-33E21DA5E7EF" name="siblings">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>siblings</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>D2220B25-CF9D-1728-F940-682D5301B385</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vsibling" id="51E451D4-514D-83AC-EA04-94546297C42D">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>siblings</sourceObjSchema>
+<sourceObjName>vsibling</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>A19E7380-44E4-D598-EC05-07D54D443756</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vsurname" id="EE606F02-8E89-B2D8-BF7A-6CDC7E42A7A4">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>siblings</sourceObjSchema>
+<sourceObjName>vsurname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>2ABB381E-32BE-8D18-3F49-4BD209A506E8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vfirstname" id="ACB3E9C6-9434-84A8-92D9-3618E5377B01">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>siblings</sourceObjSchema>
+<sourceObjName>vfirstname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>9B142A97-663E-5B30-820B-8E6B07662DEB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vothernames" id="87D5EFB5-E141-5175-BA8A-3F8F997FEDA6">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>siblings</sourceObjSchema>
+<sourceObjName>vothernames</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>B7117EBF-BD65-32E2-BEB2-DC866DF310F0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1DA2C33-228F-ACA3-60AF-17E5E4C41ACE" name="siblings_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>siblings_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>82B61975-0800-0566-208F-153B809E4BC3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51E451D4-514D-83AC-EA04-94546297C42D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

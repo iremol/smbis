@@ -1,0 +1,128 @@
+{%extends "hrlayout.twig"%}
+{%block title %}
+    New Employee Application
+{%endblock%}
+
+{%block content %}
+
+    <form id="form" action="/application/process" method="post" enctype="multipart/form-data">
+        <div id="row">
+            <h2>Login Information</h2>
+            <h2><span>Step 1</span></h2>
+        </div> 
+        <div id='row'>
+            <label for='username'>Email</label>
+            <input type="text" id='username' name='username' required size="50"/>
+        </div>
+        <div id='row'>
+            <label for='password'>Password</label>
+            <input type="password" id='password' name='password' required size="22"/>
+        </div>
+        <div id='row'>
+            <label for='re-password'>Re-Password</label>
+            <input type="password" id='re-password' name='re-password' required size="22" />
+        </div>
+        <div id="row">
+            <h2>Bio Information</h2>
+            <h2><span>Step 2</span></h2>
+        </div> 
+        <div id="row">
+            <input id="vbio_info" name="vbio_info" type="hidden" size="50" value="10001">
+        </div>
+        <div id="row">
+            <label for="vtitle">Title: </label>
+            <select id="vtitle" name="vtitle" required>
+                <option value="">Slect Title</option>
+                <option value="Mr">Mr.</option>
+                <option value="Mrs">Mrs.</option>
+                <option value="Miss">Miss</option> 
+            </select>
+        </div>
+        <div id="row">
+            <label for="vbisurname">Surname: </label>
+            <input id="vbisurname" name="vbisurname" type="text" size="20" required>
+        </div>
+        <div id="row">
+            <label for="vbifirstname">Firstname: </label>
+            <input id="vbifirstname" name="vbifirstname" type="text" size="20" required>
+        </div>
+        <div id="row">
+            <label for="vbiothernames">Othernames: </label>
+            <input id="vbiothernames" name="vbiothernames" type="text" size="50">
+        </div>
+        <div id="row">
+            <label for="vgender">Gender: </label>
+            <select id="vgender" name="vgender" required>
+                <option selected>--Select--</option>
+                <option value='Female'>Female</option>
+                <option value='Male'>Male</option>
+            </select>
+        </div>
+        <div id="row">
+            <label for="ddob">Date of Birth: </label>
+            <input id="ddob" name="ddob" type="text" size="20" required>
+        </div>
+        <div id="row">
+            <label for="vbiaddress">Address: </label>
+            <input id="vbiaddress" name="vbiaddress" type="text" size="50" required>
+        </div>
+        <div id="row">
+            <label for="fileToUpload">Select image to upload: </label>
+            <input type="file" name="fileToUpload" id="fileToUpload">
+        </div>
+        
+        <div id="row">
+            <label for="vpostcode">Postcode: </label>
+            <input id="vpostcode" name="vpostcode" type="text" size="10" required>
+        </div>
+        <div id="row">
+            <label for="vemail">Email: </label>
+            <input id="vemail" name="vemail" type="text" size="50" required>
+        </div>
+        <div id="row">
+            <label for="vdaytime_no">Day Time Number: </label>
+            <input id="vdaytime_no" name="vdaytime_no" type="text" size="11" maxlength="11" required onkeypress="return isNumber(event)">
+        </div>
+        <div id="row">
+            <label for="vrelationship">Relationship: </label>
+            <select id="vrelationship" name="vrelationship" required>
+                <option selected>Select Relationship</option>
+                <option value="Parent">Parent</option>
+                <option value="Uncle">Uncle</option>
+            </select>
+        </div>
+        <div id="row">
+            <h2>Education Information</h2>
+            <h2><span>Step 4</span></h2>
+        </div> 
+        <div id="row">
+            <input id="vguardian_info" name="vguardian_info" type="hidden" size="50" value="10001">
+        </div>
+        <div id="row">
+            <label for="vtrainer_name">Trainer: </label>
+            <input type="text" id="vtrainer_name" name="vtrainer_name" required/>
+        </div>
+        <div id="row">
+            <label for="vphone_num">Phone Number: </label>
+            <input id="vphone_num" name="vphone_num" type="text" size="20" onkeypress="return isNumber(event)" required>
+        </div>
+        <div id="row">
+            <label for="vaddress">Address: </label>
+            <input id="vaddress" name="vaddress" type="text" size="50" required/>
+        </div>
+        <div id="row">
+            <h2>Medical Information</h2>
+            <h2><span>Step 5</span></h2>
+        </div> 
+
+        <div id="row">
+            <label for="vconditions">Conditions: </label>
+            <textarea id="vconditions" name="vconditions" cols="60"> </textarea>
+        </div>
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Next</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+    </form>
+{%endblock %}

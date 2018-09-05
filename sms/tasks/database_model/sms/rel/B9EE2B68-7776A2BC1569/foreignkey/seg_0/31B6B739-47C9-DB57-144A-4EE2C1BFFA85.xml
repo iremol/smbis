@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="31B6B739-47C9-DB57-144A-4EE2C1BFFA85" containerWithKeyObject="64917850-830A-B1E8-C15B-0A49490DD16F" localFKIndex="DE5F5C7F-DD9E-68C0-4DA1-F41EBB84BE3D" name="fkclass_duratn">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>fkclass_duratn</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:38 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>D933ADEF-9BD0-6972-87B7-BA659F8C3073</importedID>
+<referredTableLongName>predef.sys_class_duratn</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>475DB6E1-00F5-C2D7-4E8C-C9491EF4A2F3</referredTableID>
+<keyObject>F8979605-588E-E298-858C-04C3A4525566</keyObject>
+<referredKeyID>F8979605-588E-E298-858C-04C3A4525566</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>bsid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

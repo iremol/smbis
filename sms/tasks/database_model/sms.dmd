@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sms" id="FD8AF3ED-1F6F-EEF8-2826-6362E042B1FA" version="3.5">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:19:44 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FD8AF3ED-1F6F-EEF8-2826-6362E042B1FA</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BD053B0B-A155-AB64-2B12-2B0EE7EE2018">
+<designStoragePath>/</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

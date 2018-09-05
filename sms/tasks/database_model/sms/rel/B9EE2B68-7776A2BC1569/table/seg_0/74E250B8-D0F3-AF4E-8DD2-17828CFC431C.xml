@@ -1,0 +1,246 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74E250B8-D0F3-AF4E-8DD2-17828CFC431C" schemaObject="854DE4C4-C9DB-F4AE-022F-A3692A790E24" name="employee">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>employee</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>67B0087B-1B15-6394-7A5C-48DE288809B5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vemployee" id="23B9D0C9-C8A5-4DBA-A0EA-9709CC19D7D9">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vemployee</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>FE27F135-D40E-44EA-315B-54D0AC21FBF6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vfirstname" id="2AD9A135-ADBD-1D55-D07B-34E05E82D480">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vfirstname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>82E2EE96-E142-6AFE-E358-D92FD046CF45</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vothername" id="4486E893-48FA-FD2B-A74B-2D1BA2354A70">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vothername</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>AB7D8E31-DE24-7651-25AC-D2E1F118A118</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlastname" id="BB2293D9-64F4-FA94-2254-4EF419A4418B">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vlastname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>9D3F8F34-DEE8-AA8F-3753-98577228E651</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vaddress_one" id="F20768DF-1895-75B4-070F-C835DEA6BE9E">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vaddress_one</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>F58AB5EE-B705-0BEE-5DD5-A309550EBF69</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vaddress_two" id="86C8203A-3CB8-71E8-5780-045512B293C1">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vaddress_two</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>28671A81-1D55-17C9-A72B-3E2BCC987021</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vstateoforigin" id="5C4DF42A-9257-4BBE-55BF-67E9B5EAB236">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vstateoforigin</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>D256BDE7-47BA-3BB8-8A7B-767723BF2B46</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vcountry" id="EB7D67D3-5CEE-AC13-E259-6ABEFAB06528">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vcountry</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>4D3353B2-569E-3A11-22EE-65DA1BC789A8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ddateofemp" id="8D7E5DF5-B334-7C90-BD82-0B72B5C9132E">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>ddateofemp</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>DCD80135-D386-5FA8-B8DB-57C518684974</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdepartment" id="1A1B65FC-0FD8-5795-E431-F48A9158AA86">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vdepartment</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>512FEF36-0133-12D2-8FF6-7921AF5030CD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CE31575-6405-1B5A-A34B-2F92E7A1EDC8" referredColumn="B8F8C770-4201-EC2A-A5DD-889B8C2AAF24"/>
+</associations>
+</Column>
+<Column name="vposition" id="BC8BEC32-683B-79CD-0665-B38E04742D3B">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vposition</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>D580FD39-7C73-C7E3-DC7C-F87502D4055B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A98C0A-E5F2-5BEB-72EE-EA9D63337509" referredColumn="DB815334-0C98-C293-1209-D047771E5BE6"/>
+</associations>
+</Column>
+<Column name="vpicture" id="C659FF5E-4293-1857-1194-E31B37952F51">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>employee</sourceObjSchema>
+<sourceObjName>vpicture</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>37C97119-63B8-EC00-CC68-E0F657FE4247</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAA23136-F4E6-27EB-E597-D41774C9B3D0" name="employee_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>employee_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>4ED9406D-E1A2-450E-AB53-8BC8082AB254</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23B9D0C9-C8A5-4DBA-A0EA-9709CC19D7D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD944074-BCB7-8831-680E-A59CFDB6C2FE" name="fkemp_dept">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A1B65FC-0FD8-5795-E431-F48A9158AA86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="731E6FDB-6134-9CBF-DC90-4ED1DF8D052B" name="fkemp_pos">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC8BEC32-683B-79CD-0665-B38E04742D3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BD50D32-71D6-314A-1179-E6865162F4AF" schemaObject="1749930F-98AB-7FCD-8E48-33E21DA5E7EF" name="educationinfo">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>educationinfo</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>2FBB8B96-B84D-17BC-B3DD-81121064F08E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="veducation_info" id="6F82C7F3-0376-B521-0814-BC3243673C09">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>educationinfo</sourceObjSchema>
+<sourceObjName>veducation_info</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>F9080386-1E1B-3762-E457-C60F568F722F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vtrainer_name" id="6CA56BA8-24B2-8DA0-1D1D-A4326E10BA72">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>educationinfo</sourceObjSchema>
+<sourceObjName>vtrainer_name</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>8B4E7DD1-2AAF-B54B-45EA-17AD4FF8E96D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vphone_num" id="DEB59148-31EE-72E0-EF54-B071F1445C30">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>educationinfo</sourceObjSchema>
+<sourceObjName>vphone_num</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>C224CECB-31C7-65EC-5EB1-4D294DDA0962</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vaddress" id="CB9AD773-3F77-5A70-F466-C7FF642953EC">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>educationinfo</sourceObjSchema>
+<sourceObjName>vaddress</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>9D951056-83E7-8E15-4944-A213D4E82AD0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31AE2099-6F30-F877-D2ED-597A3DF3CA60" name="educationinfo_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>educationinfo_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>2CB6A480-4CC8-9865-2949-B3623C6FBBB7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F82C7F3-0376-B521-0814-BC3243673C09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

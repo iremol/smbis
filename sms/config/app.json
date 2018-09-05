@@ -1,0 +1,25 @@
+{
+    "db": {
+        "application" : {
+            "user" : "applicant",
+            "password" : "Passw0rd"
+        },
+        "admin" : {
+            "user" : "sms_admin",
+            "password" : "Passw0rd"
+        },
+        "admission" : {
+            "user" : "ao",
+            "password" : "Passw0rd"
+        },
+        "human_res" : {
+            "user" : "hr",
+            "password" : "Passw0rd"
+        },
+        "management" : {
+            "user" : "mgt",
+            "password" : "Passw0rd"
+        }
+    },
+    "log" : "/var/log/sms.log"
+}

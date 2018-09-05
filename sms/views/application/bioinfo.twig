@@ -1,0 +1,54 @@
+{%extends "layout.twig"%}
+{%block title %}
+    New Application
+{%endblock%}
+
+{%block content %}
+
+    <form id="form" action="/applicant/bioinfo/save" method="post" enctype="multipart/form-data>
+          <div id="row">
+          <h2>Bio Information</h2>
+        <h2><span>Step 2</span></h2>
+    </div> 
+    <div id="row">
+        <input id="vbio_info" name="vbio_info" type="hidden" size="50" value="10001">
+    </div>
+    <div id="row">
+        <label for="vsurname">Surname: </label>
+        <input id="vsurname" name="vsurname" type="text" size="20" required>
+    </div>
+    <div id="row">
+        <label for="vfirstname">Firstname: </label>
+        <input id="vfirstname" name="vfirstname" type="text" size="20" required>
+    </div>
+    <div id="row">
+        <label for="vothernames">Othernames: </label>
+        <input id="vothernames" name="vothernames" type="text" size="50">
+    </div>
+    <div id="row">
+        <label for="vgender">Gender: </label>
+        <select id="vgender" name="vgender" required>
+            <option selected>--Select--</option>
+            <option value='Female'>Female</option>
+            <option value='Male'>Male</option>
+        </select>
+    </div>
+    <div id="row">
+        <label for="ddob">Date of Birth: </label>
+        <input id="ddob" name="ddob" type="text" size="20" required>
+    </div>
+    <div id="row">
+        <label for="vaddress">Address: </label>
+        <input id="vaddress" name="vaddress" type="text" size="50" required>
+    </div>
+    <div id="row">
+        <label for="fileToUpload">Select image to upload: </label>
+        <input type="file" name="fileToUpload" id="fileToUpload">
+    </div>
+    <div id='row'>
+        <label></label>
+        <button id='save' name='save'>Next</button>
+        <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+    </div>
+</form>
+{%endblock %}

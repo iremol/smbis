@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E48675CB-2A46-0D58-595A-C0BC12623631" schemaObject="974B2E02-41CD-5F78-2D61-07B8339E7083" name="student">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>student</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vstudent" id="7B8ABA74-CBAA-4862-9FC3-9B642BDC2930">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>student</sourceObjSchema>
+<sourceObjName>vstudent</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vapplication" id="12DCD0C9-B9A2-8EB4-6887-865BDC4D3C96">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>student</sourceObjSchema>
+<sourceObjName>vapplication</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DA53629-1E20-D932-E6E5-B6C7FB50B135" referredColumn="ADE31831-D58F-98CC-263A-BD05577AED26"/>
+</associations>
+</Column>
+<Column name="vclass" id="27B254B4-A716-AD4F-4CA6-C70226DBEFB3">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>student</sourceObjSchema>
+<sourceObjName>vclass</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE7F0BFC-C996-669C-2420-722536BC0AF5" referredColumn="76C97086-42CB-CB0E-3385-C184EAAF86EA"/>
+</associations>
+</Column>
+<Column name="dtstamp" id="1291B588-48CD-1CD1-8C86-F83C3F5CF1D4">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>student</sourceObjSchema>
+<sourceObjName>dtstamp</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<defaultValue>now()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76092607-EA23-95A7-816E-29FD0993A277" name="student_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>student_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B8ABA74-CBAA-4862-9FC3-9B642BDC2930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32D5163B-1918-DF60-7986-468F3C0A5716" name="uqapplication">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>uqapplication</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12DCD0C9-B9A2-8EB4-6887-865BDC4D3C96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF940EE6-17C8-3BD8-3D2C-85417F1D6225" name="fkapp">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12DCD0C9-B9A2-8EB4-6887-865BDC4D3C96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72F51FF9-B058-4EC2-9B93-E9ECCC7E586E" name="fkvclass">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27B254B4-A716-AD4F-4CA6-C70226DBEFB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

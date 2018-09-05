@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>views/admission/candidates_granted.twig</url>
+            <bookmark id="1">
+                <name/>
+                <line>12</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/root/NetBeansProjects/sms/views/management/createdept.twig</file>
+            <file>file:/root/NetBeansProjects/sms/views/aolayout.twig</file>
+            <file>file:/root/NetBeansProjects/sms/views/management/createclassroom.twig</file>
+            <file>file:/root/NetBeansProjects/sms/src/domain/DayPattern.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/model/ClassroomModel.php</file>
+            <file>file:/root/NetBeansProjects/sms/views/mgtlayout.twig</file>
+            <file>file:/root/NetBeansProjects/sms/src/controller/StudentController.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/domain/Class_.php</file>
+            <file>file:/root/NetBeansProjects/sms/css/main.css</file>
+            <file>file:/root/NetBeansProjects/sms/src/controller/DayPatternController.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/model/AttendanceModel.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/model/ClassModel.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/model/DayPatternModel.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/controller/ClassController.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/controller/ClassroomController.php</file>
+            <file>file:/root/NetBeansProjects/sms/views/admission/search.twig</file>
+            <file>file:/root/NetBeansProjects/sms/views/management/createpos.twig</file>
+            <file>file:/root/NetBeansProjects/sms/src/domain/Attendance.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/controller/AttendanceController.php</file>
+            <file>file:/root/NetBeansProjects/sms/src/controller/BioInfoController.php</file>
+            <file>file:/root/NetBeansProjects/sms/config/route.json</file>
+            <file>file:/root/NetBeansProjects/sms/src/controller/DepartmentController.php</file>
+            <file>file:/root/NetBeansProjects/sms/views/management/createclass.twig</file>
+            <file>file:/root/NetBeansProjects/sms/src/controller/ManagementController.php</file>
+        </group>
+    </open-files>
+</project-private>

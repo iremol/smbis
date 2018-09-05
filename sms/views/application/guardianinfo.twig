@@ -1,0 +1,67 @@
+{%extends "layout.twig"%}
+{%block title %}
+    New Application::Guardian Information
+{%endblock%}
+
+{%block content %}
+
+    <form id="form" action="/applicant/guardian/save" method="post">
+        <div id="row">
+            <h2>Guardian Information</h2>
+            <h2><span>Step 3</span></h2>
+        </div> 
+        <div id="row">
+            <input id="vguardian_info" name="vguardian_info" type="hidden" size="50" value="10001">
+        </div>
+        <div id="row">
+            <label for="vtitle">Title: </label>
+            <select id="vtitle" name="vtitle" required>
+                <option value="">Slect Title</option>
+                <option value="Mr">Mr.</option>
+                <option value="Mrs">Mrs.</option>
+                <option value="Miss">Miss</option> 
+            </select>
+        </div>
+        <div id="row">
+            <label for="vsurname">Surname: </label>
+            <input id="vsurname" name="vsurname" type="text" size="20" required>
+        </div>
+        <div id="row">
+            <label for="vfirstname">Firstname: </label>
+            <input id="vfirstname" name="vfirstname" type="text" size="20" required>
+        </div>
+        <div id="row">
+            <label for="vothernames">Othernames: </label>
+            <input id="vothernames" name="vothernames" type="text" size="50">
+        </div>
+        <div id="row">
+            <label for="vaddress">Address </label>
+            <input id="vaddress" name="vaddress" type="text" size="50" required/>
+        </div>
+        <div id="row">
+            <label for="vpostcode">Postcode: </label>
+            <input id="vpostcode" name="vpostcode" type="text" size="10" required>
+        </div>
+        <div id="row">
+            <label for="vemail">Email: </label>
+            <input id="vemail" name="vemail" type="text" size="50" required>
+        </div>
+        <div id="row">
+            <label for="vdaytime_no">Day Time Number: </label>
+            <input id="vdaytime_no" name="vdaytime_no" type="text" size="11" maxlength="11" required onkeypress="return isNumber(event)">
+        </div>
+        <div id="row">
+            <label for="vrelationship">Relationship: </label>
+            <select id="vrelationship" name="vrelationship" required>
+                <option selected>Select Relationship</option>
+                <option value="Parent">Parent</option>
+                <option value="Uncle">Uncle</option>
+            </select>
+        </div>
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Next</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+    </form>
+{%endblock %}

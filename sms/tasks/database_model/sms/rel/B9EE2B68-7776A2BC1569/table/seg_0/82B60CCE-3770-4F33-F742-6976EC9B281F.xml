@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82B60CCE-3770-4F33-F742-6976EC9B281F" schemaObject="9B9056AA-78CC-6CCC-0917-5117B296BCA0" name="locals">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>facts</sourceObjSchema>
+<sourceObjName>locals</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>F0B765AF-ACE4-A797-FFF4-67836D535FBC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0763A40E-DCF3-BE54-E7A4-CFDB98D14D27">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>locals</sourceObjSchema>
+<sourceObjName>id</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>25BACE7E-6BEB-D878-7EFB-E4FF9D68E6E4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<defaultValue>nextval(&apos;facts.locals_id_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state_id" id="3AB7C64F-3B64-538A-BCC9-F7013B0F55C4">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>locals</sourceObjSchema>
+<sourceObjName>state_id</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>15B818C3-55EC-3FA0-3C54-A2E0D2BF5A02</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlocal_name" id="CD5834C4-9359-8DAF-4058-313A47C527BE">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>locals</sourceObjSchema>
+<sourceObjName>vlocal_name</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>6B0A1D18-0E51-3EF4-B6CC-E7B21A71F8CB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2EE189C-E6DC-07FF-C252-B85A3D14EBFC" name="locals_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>facts</sourceObjSchema>
+<sourceObjName>locals_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>7A8BDAF2-3C04-AFCF-8EBC-DA88BE788AEE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0763A40E-DCF3-BE54-E7A4-CFDB98D14D27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

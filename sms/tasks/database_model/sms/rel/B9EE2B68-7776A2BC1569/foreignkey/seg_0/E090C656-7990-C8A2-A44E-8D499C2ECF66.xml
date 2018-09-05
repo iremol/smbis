@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E090C656-7990-C8A2-A44E-8D499C2ECF66" containerWithKeyObject="80B98B3F-5955-EFAC-7428-5D2EEBCAF34A" localFKIndex="14F27986-3117-879B-A30D-42170AFD544D" name="application_vguardian_info_fkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>application_vguardian_info_fkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>C80ADCE9-FD0D-5F09-9B93-C7B58D3E1991</importedID>
+<referredTableLongName>public.guardianinfo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CB24E9FD-6F44-1193-DF26-B6C34DA25E7A</referredTableID>
+<keyObject>7C9C13F5-F973-EE3B-53CB-4C7822BDB848</keyObject>
+<referredKeyID>7C9C13F5-F973-EE3B-53CB-4C7822BDB848</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>vguardian_info</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

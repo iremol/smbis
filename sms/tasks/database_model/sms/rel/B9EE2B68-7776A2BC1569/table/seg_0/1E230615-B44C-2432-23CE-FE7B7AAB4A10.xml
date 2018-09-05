@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E230615-B44C-2432-23CE-FE7B7AAB4A10" schemaObject="854DE4C4-C9DB-F4AE-022F-A3692A790E24" name="position">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>position</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>AA4CA8A5-0BE0-5111-B9F1-0DB9639E0928</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vposition" id="DB815334-0C98-C293-1209-D047771E5BE6">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>position</sourceObjSchema>
+<sourceObjName>vposition</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>F41A9860-F19B-C986-DFFA-E7F9CA2FB8FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdescription" id="B607AEB1-D028-A51C-DCBB-75FB6FDCFE9F">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>position</sourceObjSchema>
+<sourceObjName>vdescription</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>018B3933-2ED1-6E8B-0678-2AF2E4699546</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EF98C8A-E841-7BF5-2881-639C18A0FCA4" name="position_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>position_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>7082BCE6-7729-D381-41B2-13A1FAA13D03</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB815334-0C98-C293-1209-D047771E5BE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64619AC9-F633-6AE6-34FB-2C3F7FEC9B38" name="uqdesc">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>uqdesc</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>34DBD846-B372-0FFC-C061-4D4E622A94D1</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B607AEB1-D028-A51C-DCBB-75FB6FDCFE9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

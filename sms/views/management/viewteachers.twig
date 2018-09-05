@@ -1,0 +1,33 @@
+{%extends "mgt_layout_view.twig"%}
+{%block title %}
+    View Teachers Details
+{%endblock%}
+
+{%block content %}
+    {% if msg%}
+        <p>Message: {{msg}}
+            <script>
+                // window.location.href = '/mgt/classroom/new';
+            </script>
+        {% endif%}
+
+
+    <div>
+        <table class='teacher'>
+            <tr><th>S/N</th><th>Employee Id</th><th>Firstname</th><th>Lastname</th></tr>
+                {%for item in t%}
+                <tr>
+                    <th>{{loop.index}} </th>
+                    <td>{{item.vemployee}}</td>
+                    <td>{{item.vfirstname}}</td>
+                    <td>{{item.vlastname}}</td>
+                </tr>
+            {%endfor%}
+        </table>
+    </div>
+
+    <div>
+        <label></label>
+        <button id='save' name='save' onclick="window.close()">Close</button>
+    </div>
+{%endblock %}{# empty Twig template #}

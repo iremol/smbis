@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7AA14C3-FA75-1675-75DB-0AB00D95B464" containerWithKeyObject="BAA777D0-E330-543A-0D74-B143A02B9BAC" localFKIndex="308F960C-49D0-AE1D-E032-91743BDD61FA" name="application_vbio_info_fkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>application_vbio_info_fkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<referredTableLongName>public.bioinfo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87604299-484F-CEA9-C0D3-0B11041A68D8</referredTableID>
+<keyObject>F2922CD7-FFF0-349E-FC92-77342D992D31</keyObject>
+<referredKeyID>F2922CD7-FFF0-349E-FC92-77342D992D31</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>vbio_info</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

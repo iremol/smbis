@@ -1,0 +1,23 @@
+Subject	:	Generating a List of Attendance of a Class
+Author  : 	Imole Akpobome
+Date	: 	31.05.2018
+version	:	1.0
+Revision:	NILL
+Overview:	The algorithm to generate a non-existing Attendance-Detail of an
+		existing Attendance of a non running Class in which students may 
+		or may not already exist.
+Main	:	The algorithm to generate the following is the purpose of 
+		this document : - 
+		1.	Id of the attendance detail object which is textual.
+		2.	ContactDate is the date of the actual attendance
+			record.
+		3.	Attendance is the marker which represents absence or
+			presence.
+		4.	Student - The object of which the entire operation is
+			dependent on. 
+Algorithm:	
+		1	Generate the Id
+		2.	Obtain date from host.
+		3.	Create a marker 
+		4.	Obtain Student Id from Student record.: 
+

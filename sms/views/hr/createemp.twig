@@ -1,0 +1,97 @@
+{%extends "hrlayout.twig"%}
+{%block title %}
+    New Employee
+{%endblock%}
+
+{%block content %}
+    <form id="form" action="/hr/emp/processcreate" method="post" enctype="multipart/form-data">
+        <div id="row">
+            <h2>New Employee</h2>
+            <h2><span></span></h2>
+        </div> 
+        {#<div id='row'>
+            <label for='vemployee'>employee</label>
+            <input type='text' id='vemployee' name='vemployee' size='50' required/>
+        </div>#}
+        <div id='row'>
+            <label for='vfirstname'>Firstname</label>
+            <input type='text' id='vfirstname' name='vfirstname' size='20' required/>
+            <span class="errmsg">*</span>
+        </div>
+        <div id='row'>
+            <label for='vothername'>Othername</label>
+            <input type='text' id='vothername' name='vothername' size='20' required/>
+        </div>
+        <div id='row'>
+            <label for='vlastname'>Lastname</label>
+            <input type='text' id='vlastname' name='vlastname' size='20' required/>
+            <span class="errmsg">*</span>
+        </div>
+        <div id='row'>
+            <label for='vaddress_one'>Address One</label>
+            <input type='text' id='vaddress_one' name='vaddress_one' size='50' required/>
+            <span class="errmsg">*</span>
+        </div>
+        <div id='row'>
+            <label for='vaddress_two'>Address Two</label>
+            <input type='text' id='vaddress_two' name='vaddress_two' size='50' required/>
+        </div>
+
+        <div id='row'>
+            <label for='vcountry'>Country</label>
+            {#            <input type='text' id='vcountry' name='vcountry' size='50' required/>#}
+            <select id="vcountry" name="vcountry" required>
+                <option value="">Select Country</option>
+                {% for i in c %}
+                    <option value={{i.vname}}>{{i.vname}}</option>
+
+                {%endfor%}
+            </select>
+            <span class="errmsg">*</span>
+        </div>
+        <div id='row'>
+            <label for='vstateoforigin'>State Of Origin</label>
+            <input type='text' id='vstateoforigin' name='vstateoforigin' size='20' required/>
+            <span class="errmsg">*</span>
+        </div>
+        <div id='row'>
+            <label for='ddateofemp'>Date of Employment</label>
+            <input type='date' id='ddateofemp' name='ddateofemp' size='20' required/>
+            <span class="errmsg">*</span>
+        </div>
+        <div id='row'>
+            <label for='vdepartment'>Department</label>
+            {#            <input type='text' id='vdepartment' name='vdepartment' size='20' required/>#}
+            <select id="vdepartment" name="vdepartment" required>
+                <option value="">Select Department</option>
+                {% for i in d %}
+                    <option value={{i.vdepartment}}>{{i.vdescription}}</option>
+
+                {%endfor%}
+            </select>
+            <span class="errmsg">*</span>
+        </div>
+        <div id='row'>
+            <label for='vposition'>Position</label>
+            {#            <input type='text' id='vposition' name='vposition' size='20' required/>#}
+            <select id="vposition" name="vposition" required>
+                <option value="">Select Position</option>
+                {% for i in p %}
+                    <option value={{i.vposition}}>{{i.vdescription}}</option>
+
+                {%endfor%}
+            </select>
+            <span class="errmsg">*</span>
+        </div>
+            <div id="row">
+                <label for='vpicture'>Picture</label>
+                <input type="file" id="vpicture" name="vpicture"/>
+                <span class="errmsg">*</span>
+            </div>
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Next</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+    </form>
+{%endblock %}

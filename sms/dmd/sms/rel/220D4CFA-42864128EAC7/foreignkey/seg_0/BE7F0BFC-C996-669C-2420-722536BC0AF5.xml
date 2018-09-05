@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE7F0BFC-C996-669C-2420-722536BC0AF5" containerWithKeyObject="E48675CB-2A46-0D58-595A-C0BC12623631" localFKIndex="72F51FF9-B058-4EC2-9B93-E9ECCC7E586E" name="fkvclass">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>fkvclass</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<referredTableLongName>teaching.class</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DEB53AD-F11A-74F4-5F10-8C411C8B1363</referredTableID>
+<keyObject>42C1B9FF-A74C-3FA8-6157-7B7F4384FD40</keyObject>
+<referredKeyID>42C1B9FF-A74C-3FA8-6157-7B7F4384FD40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vclass</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

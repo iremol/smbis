@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87A98C0A-E5F2-5BEB-72EE-EA9D63337509" containerWithKeyObject="74E250B8-D0F3-AF4E-8DD2-17828CFC431C" localFKIndex="731E6FDB-6134-9CBF-DC90-4ED1DF8D052B" name="fkemp_pos">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>hr</sourceObjSchema>
+<sourceObjName>fkemp_pos</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>1D0241A8-64C9-A3CE-739C-3E6F432CD00B</importedID>
+<referredTableLongName>hr.position</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E230615-B44C-2432-23CE-FE7B7AAB4A10</referredTableID>
+<keyObject>8EF98C8A-E841-7BF5-2881-639C18A0FCA4</keyObject>
+<referredKeyID>8EF98C8A-E841-7BF5-2881-639C18A0FCA4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vposition</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

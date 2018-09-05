@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.TableProxyDB2v80" name="countries" directorySegmentName="seg_0" id="27F5497C-CBBE-27D2-32F8-36707941BFE5">
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<schemaObject>C8E6FB92-4DBE-AE5E-6905-EAF0F14727F1</schemaObject>
+<numberOfRows>0</numberOfRows>
+<owner>OWNER_IMPLICIT</owner>
+<materializedQuery>NO</materializedQuery>
+<materializedQueryChanged>false</materializedQueryChanged>
+<mqColumnDefaults>EXCLUDING</mqColumnDefaults>
+<mqIdentityColumnAttr>EXCLUDE</mqIdentityColumnAttr>
+<mqmaintenance>BY SYSTEM</mqmaintenance>
+<mqQueryDefinitionChanged>false</mqQueryDefinitionChanged>
+<mqQueryOptimization>ENABLE</mqQueryOptimization>
+<mqStatus>MATERIALIZED QUERY</mqStatus>
+<partitioned>NO</partitioned>
+<tableAccess>NOT VOLATILE</tableAccess>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vname" id="0F9789F7-8905-FC12-35A6-2880BFB6D485">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI5" id="006E4C49-85D9-DE8A-4799-D0C176866BEC">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>0F9789F7-8905-FC12-35A6-2880BFB6D485</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>&apos;&apos;::character varying</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="id" id="BCEE9862-C8DE-8A75-A845-7AE501B27E95">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI3" id="9630EC4B-A23D-21EC-5650-3CCAF4A0F983">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>BCEE9862-C8DE-8A75-A845-7AE501B27E95</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>nextval(&apos;facts.countries_id_seq&apos;::regclass)</defaultValueConstant>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vcode" id="E41D88B0-B6D8-0291-B60F-C3D3FF6330CE">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI4" id="008B8E06-A8EC-134A-AC41-75FAA9D4D359">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>E41D88B0-B6D8-0291-B60F-C3D3FF6330CE</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+<defaultValueConstant>&apos;&apos;::character varying</defaultValueConstant>
+</ColumnProxy>
+</columnProxies>
+</TableProxyDB2v80>

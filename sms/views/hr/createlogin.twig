@@ -1,0 +1,33 @@
+{%extends "hrlayout.twig"%}
+{%block title %}
+    New Human Resource Login 
+{%endblock%}
+
+{%block content %}
+
+    <form id="form" action="/hr/login/save" method="post">
+        <div id="row">
+            <h2>Login Information</h2>
+            <h2><span>Step 1</span></h2>
+        </div> 
+        <div id='row'>
+            <label for='username'>Email</label>
+            <input type="text" id='username' name='username' required size="50"/>
+        </div>
+        <div id='row'>
+            <label for='password'>Password</label>
+            <input type="password" id='password' name='password' required size="22"/>
+        </div>
+        <div id='row'>
+            <label for='re-password'>Re-Password</label>
+            <input type="password" id='re-password' name='re-password' required size="22" />
+        </div>
+        <input type="hidden" id='principal' name='principal' value="UserPrincipal"/>
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Create</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+
+    </form>
+{%endblock %}{# empty Twig template #}

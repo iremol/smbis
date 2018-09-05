@@ -1,0 +1,27 @@
+{%extends "layout.twig"%}
+{%block title %}
+    Login
+{%endblock%}
+
+{%block content %}
+    <form id="form" action="/applicant/login/authenticate" method="post">
+        <div id="row">
+            <h3>Login</h3>
+            <h2><span></span></h2>
+        </div> 
+        <div id='row'>
+            <label for='username'>Email</label>
+            <input type="text" id='username' name='username' required size="50"/>
+        </div>
+        <div id='row'>
+            <label for='password'>Password</label>
+            <input type="password" id='password' name='password' required size="50"/>
+        </div>
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Login</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+
+    </form>
+{%endblock %}{# empty Twig template #}

@@ -1,0 +1,39 @@
+{%extends "mgtlayout.twig"%}
+{%block title %}
+    New Classroom
+{%endblock%}
+
+{%block content %}
+    {% if msg%}
+        <p>Message: {{msg}}
+            <script>
+                {#f = function () {
+                    window.location.href = '/mgt/classroom/new';
+                };
+                window.onload = setTimeout(f, 2000);#}
+
+            </script>
+        {% endif%}
+
+    <form id="form" action="/mgt/classroom/save" method="post">
+        <div id="row">
+            <h3>Classroom Detail</h3>
+
+        </div> 
+        <div id='row'>
+            <label for='vclassroom'>Room Identification</label>
+            <input type="text" id='vclassroom' name='vclassroom' required size="50"/>
+        </div>
+        <div id='row'>
+            <label for='password'>Short Description</label>
+            <textarea id='vshortdescription' name='vshortdescription' rows='2' cols='50' required></textarea>
+        </div>
+
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Create</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+
+    </form>
+{%endblock %}{# empty Twig template #}

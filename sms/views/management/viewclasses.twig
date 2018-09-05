@@ -1,0 +1,40 @@
+{%extends "mgtlayout.twig"%}
+{%block title %}
+View Running Classes
+{%endblock%}
+
+{%block content %}
+{% if msg%}
+<p>
+	Message:
+	{{msg}}
+	<script>
+		// window.location.href = '/mgt/classroom/new';
+	</script>
+	{% endif%}
+<div>
+	<h3>Existing Classes</h3>
+	<div>
+		<table class="mgttable" style="width: 75%;">
+			<tr>
+				<th>Class Id</th>
+				<th>Teacher ID</th>
+				<th>Class Name</th>
+				<th>Class Room</th>
+				<th>Attendance Id</th>
+			</tr>
+			{% for item in classes %}
+			<tr>
+				<td>{{item.vclass}}</td>
+				<td>{{item.vclassteacher}}</td>
+				<td>{{item.vclassname}}</td>
+				<td>{{item.vclassroom}}</td>
+				<td>{{item.vattreg}}</td>
+			</tr>
+			{%endfor%}
+		</table>
+	</div>
+</div>
+
+{%endblock %}
+{# empty Twig template #}

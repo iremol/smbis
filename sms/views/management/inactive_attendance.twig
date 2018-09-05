@@ -1,0 +1,25 @@
+{%extends "mgtlayout.twig"%}
+{%block title %}
+    New Class Launch
+{%endblock%}
+
+{%block content %}
+    {% if msg%}
+        <p>Message: {{msg}} </p>
+        <script>
+            // window.location.href = '/mgt/classroom/new';
+        </script>
+    {% endif%}
+    <div><h3>Inactive Attendance</h3>
+        <table  class="mgttable"  style="width: 75%;">
+            <tr>
+                <th>Attendance</th><th>Start Date</th><th>End Date</th><th>Operation</th>
+            </tr>
+            {% for item in arr %}
+                <tr>
+                    <td>{{item.vattreg}}</td><td>{{item.dstartdate}}</td><td>{{item.denddate}}</td><td><span style="color:green">Activate</span></td>
+                </tr>
+            {%endfor%}
+        </table>
+    </div>
+{%endblock %}{# empty Twig template #}

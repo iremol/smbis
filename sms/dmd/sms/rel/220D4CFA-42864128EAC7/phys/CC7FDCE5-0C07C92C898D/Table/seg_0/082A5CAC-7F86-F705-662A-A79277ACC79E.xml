@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyDB2v80 class="oracle.dbtools.crest.model.design.storage.db2.v80.TableProxyDB2v80" name="login" directorySegmentName="seg_0" id="082A5CAC-7F86-F705-662A-A79277ACC79E">
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<schemaObject>3583EB6B-F294-4403-53E3-945D765F20D2</schemaObject>
+<numberOfRows>0</numberOfRows>
+<owner>OWNER_IMPLICIT</owner>
+<materializedQuery>NO</materializedQuery>
+<materializedQueryChanged>false</materializedQueryChanged>
+<mqColumnDefaults>EXCLUDING</mqColumnDefaults>
+<mqIdentityColumnAttr>EXCLUDE</mqIdentityColumnAttr>
+<mqmaintenance>BY SYSTEM</mqmaintenance>
+<mqQueryDefinitionChanged>false</mqQueryDefinitionChanged>
+<mqQueryOptimization>ENABLE</mqQueryOptimization>
+<mqStatus>MATERIALIZED QUERY</mqStatus>
+<partitioned>NO</partitioned>
+<tableAccess>NOT VOLATILE</tableAccess>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vusername" id="2EF221DA-E12E-50AD-F37D-A0852F2F0B8F">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI1" id="6CA8A2F9-1433-4E40-44F6-2E21A4DEB9A4">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>2EF221DA-E12E-50AD-F37D-A0852F2F0B8F</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnProxyDB2v80" name="vpassword" id="7E6C2B77-545D-EA74-F951-EF2BC9B3BB18">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<columnIdentity class="oracle.dbtools.crest.model.design.storage.db2.v80.ColumnIdentityDB2v80" name="CI2" id="68EF8F75-8A03-041A-933E-898138C88947">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<cache>0</cache>
+<column>7E6C2B77-545D-EA74-F951-EF2BC9B3BB18</column>
+<cycle>false</cycle>
+<generate>BY DEFAULT</generate>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+<order>YES</order>
+</columnIdentity>
+</ColumnProxy>
+</columnProxies>
+</TableProxyDB2v80>

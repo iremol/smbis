@@ -1,0 +1,62 @@
+{%extends "aolayout.twig"%}
+{%block title %}
+    Search Student
+{%endblock%}
+
+{%block content %}
+    <div style='width: 100%;'>
+        <div style='display: table;width: 75%; '>
+            {% if msg %}
+                <strong>Message: {{msg}}</strong>
+            {% endif %}
+
+            {% for r in row %}
+                <span>Student id: {{r.vstudent}}</span>
+                <form action="/admission/updatest/{{r.vstudent}}" method="post" >
+                    <div class="result">
+                        <p>
+                            <span><img src="{{r.c_pic}}" width="100" height="100"/></span>
+                        </p>
+                        <p>
+                            <span class="lbl">Firstname: </span><span class="stext"> {{r.c_fn}}</span> <span class="lbl">Surname:</span><span class="stext">{{r.c_sn}}</span>
+                        </p>
+                        <p>
+                            <span class="lbl">Address: </span><span class="ltext"><input type="text" id="c_addr" name="c_addr" value="{{r.c_addr}}" size="50"/></span>
+                        </p>
+                        <p>
+                            <span class="lbl">Gender: </span><span class="stext">{{r.c_gender}}</span> <span class="lbl">Date of Birth: </span><span class="stext">{{r.c_dob}}</span>
+                        </p>
+                        <p>
+                            <span class="lbl">Class: </span><span class="ltext"><input type="text" id="vclass" name="vclass" value="{{r.vclass}}"/></span>
+                        </p>
+                        <p>
+                            <span class="lbl">Application: </span><span class="stext">{{r.vappid}}</span>
+                        </p>
+                    </div>
+                    <span>Guardian Information</span>
+                    <div class="result">
+
+                        <p>
+                            <span class="lbl">Name: </span><span class="ltext"> {{r.g_title | capitalize}} {{r.g_fn | capitalize}} {{r.g_sn | capitalize}}</span>                        
+                        </p>
+                        <p>
+                            <span class="lbl">Address: </span><span class="ltext"><input type="text" id="g_addr" name="g_addr" value="{{r.g_addr}}" size="50"/></span>
+                        </p>
+                        <p>
+                            <span class="lbl">Email: </span><span class="ltext"><input type="text" id="g_email" name="g_email" value="{{r.g_email}}"/></span>
+                        </p>
+                        <p>
+                            <span class="lbl">Day time Number: </span><span class="ltext"><input type="text" id="g_dtno" name="g_dtno" value="{{r.g_dtno}}"/></span>
+                        </p>
+                        <p>
+
+                            <span class="lbl">Relationship: </span><span class="ltext">{{r.g_rel}}</span>
+                        </p>
+                    </div>
+                    <div>
+                        <a href="/admission/student/search"><button type="button">Return to <i>Search</i></button></a>
+                        <button class="blue" type="submit">Save <i>Updates</i></button>
+                    </div>
+                </form>
+            {% endfor %}
+        {%endblock %}

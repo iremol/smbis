@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A35B283D-F51F-40BD-F6D6-5F74DFD26DE7" containerWithKeyObject="BAA777D0-E330-543A-0D74-B143A02B9BAC" localFKIndex="D4E8E1C9-22E6-9521-53E5-C6F092FB654A" name="application_veducation_info_fkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>application_veducation_info_fkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<referredTableLongName>public.educationinfo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>32B43389-F2C3-729E-1292-F504144BA1E7</referredTableID>
+<keyObject>0D125EE5-96EE-07BA-01FF-5C5C708E642B</keyObject>
+<referredKeyID>0D125EE5-96EE-07BA-01FF-5C5C708E642B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>veducation_info</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

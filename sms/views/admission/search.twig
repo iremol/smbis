@@ -1,0 +1,57 @@
+{%extends "aolayout.twig"%}
+{%block title %}
+    Search Student
+{%endblock%}
+
+{%block content %}
+    <div style='width: 100%;'>
+        <div style='display: table;width: 75%; '>
+            {% if msg %}
+                <strong>Message: {{msg}}</strong>
+            {% endif %}
+
+            <form id="form" action="/admission/student/s" method="post">
+                <div id="row">
+                    <h2>Search</h2>
+                    <h2><span></span></h2>
+                </div> 
+                <div id='row'>
+                    <label for='searchById'>Id</label>
+                    <input type="text" id='searchById' name='searchById' required size="50"/>
+                </div>
+                {#<div id='row'>
+                    <label for='password'>Password</label>
+                    <input type="password" id='password' name='password' required size="50"/>
+                </div>#}
+                <div id='row'>
+                    <label></label>
+                    <button id='id' name='id'>Search</button>
+                    <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+                </div>
+
+            </form>
+            <form id="form" action="/admission/student/s" method="post">
+                <div id="row">
+                    <h2>Search</h2>
+                    <h2><span></span></h2>
+                </div> 
+                <div id='row'>
+                    <label for='searchByFName'>Firstname</label>
+                    <input type="text" id='searchByFName' name='searchByFName' size="50"/>
+                </div>
+                <div id='row'>
+                    <label for='searchBySName'>Surname</label>
+                    <input type="text" id='searchBySName' name='searchBySName' size="50"/>
+                </div>
+                {#<div id='row'>
+                    <label for='password'>Password</label>
+                    <input type="password" id='password' name='password' required size="50"/>
+                </div>#}
+                <div id='row'>
+                    <label></label>
+                    <button id='name' name='name'>Search</button>
+                    <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+                </div>
+
+            </form>
+        {%endblock %}

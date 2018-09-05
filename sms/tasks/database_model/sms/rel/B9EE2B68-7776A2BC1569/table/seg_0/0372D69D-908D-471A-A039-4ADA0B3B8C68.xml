@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0372D69D-908D-471A-A039-4ADA0B3B8C68" schemaObject="75988CCB-05C8-315E-4651-959E37B1C567" name="attreg">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>attreg</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>C84B148C-9CD0-E20A-1F26-0E35D937815E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vattreg" id="E83A944E-F8BC-D6F5-7E7B-EFB591D69D0F">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attreg</sourceObjSchema>
+<sourceObjName>vattreg</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>C4573C8E-6F5F-9F73-9843-BE6B2C36BD28</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dstartdate" id="9F577181-8C43-7ABB-0437-5C6D4305B05B">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attreg</sourceObjSchema>
+<sourceObjName>dstartdate</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>82AFDF84-B728-529E-D630-C4D5C8BBC1B4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="denddate" id="286711D1-0514-9C2A-8C5E-90001670F383">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attreg</sourceObjSchema>
+<sourceObjName>denddate</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>E6C405C2-4891-C283-EBB7-7DBBDF11AEF0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76F06A2E-816A-0B18-80A5-6A012870A32E" name="attreg_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>attreg_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>3BDFEBD5-14EE-499D-D574-B9EED64DF37E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83A944E-F8BC-D6F5-7E7B-EFB591D69D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

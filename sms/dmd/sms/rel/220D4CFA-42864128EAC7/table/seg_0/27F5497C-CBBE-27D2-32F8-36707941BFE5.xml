@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27F5497C-CBBE-27D2-32F8-36707941BFE5" schemaObject="C8E6FB92-4DBE-AE5E-6905-EAF0F14727F1" name="countries">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>facts</sourceObjSchema>
+<sourceObjName>countries</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BCEE9862-C8DE-8A75-A845-7AE501B27E95">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>countries</sourceObjSchema>
+<sourceObjName>id</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<defaultValue>nextval(&apos;facts.countries_id_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vcode" id="E41D88B0-B6D8-0291-B60F-C3D3FF6330CE">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>countries</sourceObjSchema>
+<sourceObjName>vcode</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<defaultValue>&apos;&apos;::character varying</defaultValue>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vname" id="0F9789F7-8905-FC12-35A6-2880BFB6D485">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>countries</sourceObjSchema>
+<sourceObjName>vname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<defaultValue>&apos;&apos;::character varying</defaultValue>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F948CE2-4BEF-0D00-CE0A-84D543080190" name="countries_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>facts</sourceObjSchema>
+<sourceObjName>countries_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:41 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCEE9862-C8DE-8A75-A845-7AE501B27E95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

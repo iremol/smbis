@@ -1,0 +1,34 @@
+{# empty Twig template #}
+<html>
+    <head>
+        <title>{%block title %}{%endblock%}</title>
+        <link rel="icon" type="image/x-icon" href="../../images/favicon.ico"/>
+        <link type="text/css" rel="stylesheet" href="../../css/main.css"/>
+        <script type="text/javascript" src="../../js/main.js"></script>
+    </head>
+    <body>
+        <div id='nav'>
+            {#<ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Apply</li>
+                <li>FAQs</li>
+                <li><a href="../src/testviewtestimony.php">Testimony</a></li>
+                <li>Contact us</li>
+            </ul>#}
+            <h1>School Management Service </h1>
+        </div>
+
+        <div id="container">
+
+           
+
+            <!-- Start of Main Content-->
+            <div id="content">
+                <!--<h1>SMS Software</h1>-->
+                {%block content %} {%endblock%}
+            </div>
+            <!-- End of Main Content-->
+        </div>
+    </body>
+</html>

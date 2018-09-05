@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82927B12-DF65-7E6C-0C3F-CA88EAB4A9FC" schemaObject="335ABB46-914C-F32B-1303-F2F4583E6259" name="candidate">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>candidate</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vcandidate" id="4AD62C03-D322-B9C9-9897-50D4388C135F">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>candidate</sourceObjSchema>
+<sourceObjName>vcandidate</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vapplication" id="9401B964-D6A5-9C99-83E2-AE2A1735818B">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>candidate</sourceObjSchema>
+<sourceObjName>vapplication</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="176D5721-23CA-0433-27CE-0AF260A16F8C" referredColumn="ADE31831-D58F-98CC-263A-BD05577AED26"/>
+</associations>
+</Column>
+<Column name="vusername" id="59A1893A-8C67-9437-D3B4-1902C8DC5203">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>candidate</sourceObjSchema>
+<sourceObjName>vusername</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C079453-0867-F290-4A9E-1F5F9B2E137A" referredColumn="C0F88859-74CB-BBC7-FC32-56A1859BDD43"/>
+</associations>
+</Column>
+<Column name="vadmission_status" id="62D7D840-F9B2-1350-AAD1-7644139A9040">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>candidate</sourceObjSchema>
+<sourceObjName>vadmission_status</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<defaultValue>&apos;NO ADMISSION&apos;::character varying</defaultValue>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vstudent_status" id="9A4F9C1C-16A7-4FCE-2734-70236EE40317">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>candidate</sourceObjSchema>
+<sourceObjName>vstudent_status</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<defaultValue>&apos;NO&apos;::character varying</defaultValue>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F10B6A89-51B7-CF27-B266-FCB707773405" name="candidate_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>candidate_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AD62C03-D322-B9C9-9897-50D4388C135F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AEA3A2C-DA53-812A-AC05-749889653E8D" name="candidate_vapplication_fkey">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9401B964-D6A5-9C99-83E2-AE2A1735818B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F00E738-F82A-D2D0-2E4F-5E365A71E231" name="candidate_vusername_fkey">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59A1893A-8C67-9437-D3B4-1902C8DC5203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

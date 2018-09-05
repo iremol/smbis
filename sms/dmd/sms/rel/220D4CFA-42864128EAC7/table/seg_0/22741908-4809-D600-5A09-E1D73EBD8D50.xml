@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22741908-4809-D600-5A09-E1D73EBD8D50" schemaObject="C8E6FB92-4DBE-AE5E-6905-EAF0F14727F1" name="states">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>facts</sourceObjSchema>
+<sourceObjName>states</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="007E9CD7-1864-A1B4-1040-5292B1DD972E">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>states</sourceObjSchema>
+<sourceObjName>id</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<defaultValue>nextval(&apos;facts.states_id_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vname" id="6951CAB7-A04F-030D-5B70-A7970D57C8B5">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>states</sourceObjSchema>
+<sourceObjName>vname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="905EF082-9C50-6590-E2C4-E89A5A18B618" name="states_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>facts</sourceObjSchema>
+<sourceObjName>states_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="007E9CD7-1864-A1B4-1040-5292B1DD972E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

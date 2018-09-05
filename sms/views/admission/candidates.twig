@@ -1,0 +1,27 @@
+{%extends "aolayout.twig"%}
+{%block title %}
+    View All Candidates
+{%endblock%}
+
+{%block content %}
+    <div style='width: 100%;'>
+        <div style='display: table;width: 75%; '>
+            {% if msg %}
+                <strong>Error: {{msg}}</strong>
+            {% endif %}
+            {% for c in candidates %}
+
+                <!--<div style="border-top: #00dd00 solid thin">-->
+                <div style='display: table-row'>
+                    <div style='display: table-cell'>{{c.vapplication}}</div>
+                    <div style='display: table-cell'>
+                        <a href='/admission/c/{{c.vapplication}}'><button class="blue">View</button></a>
+                        <a href='/admission/c/{{c.vapplication}}'><a href='/admission/grant/{{c.vcandidate}}'><button>Grant</button></a>
+                            <a href='/admission/c/{{c.vapplication}}'><a href='/admission/deny/{{c.vcandidate}}'><button class="red">Deny</button></a>
+                                </div>
+                                <!--</div>-->
+                                </div>
+                            {% endfor %}
+                            </div>
+                            </div>
+                        {%endblock %}

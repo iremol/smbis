@@ -1,0 +1,30 @@
+Teacher Login Usecase:
+Main Scenario :
+1.	 Teacher enters login url 
+2.	 System displays login page
+3.	 Teacher enters login credentials
+4.	 System validates login credentials / entry
+5.	 System authenticates login credentials
+6.	 System logs successful login 
+6.	 System logs Teacher in to portal
+
+Alternative Scenarios:
+1a Teacher enters another url that points to functions that requires
+authentication whilst not logged in.
+	1.	Teacher enters url that points to secured functions
+	2.	Systems checks if call to function is authenticated
+	3.	System logs possible bypass. 
+	3.	System redirects to login page.
+4a Credentials entered is not valid text.
+   	       1.      Attacker enters malicious text.
+	       2.      System validates
+	       3.      System logs malicious entry
+	       4.      System notifies user of wrong credentials.
+5a Credentials fails authentication
+   	       1.    System authenticates credentials
+	       2.    System logs failed authentication
+	       3.    System notifies teacher of wrong credential.
+ 
+
+
+	

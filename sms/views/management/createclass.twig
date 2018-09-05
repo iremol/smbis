@@ -1,0 +1,106 @@
+{%extends "mgtlayout.twig"%}
+{%block title %}
+New Class Launch
+{%endblock%}
+
+{%block content %}
+{% if msg%}
+<p>
+	Message:
+	{{msg}}
+</p>
+<script>
+                // window.location.href = '/mgt/classroom/new';
+            </script>
+{% endif%}
+
+<form id="form" action="/mgt/class/save" method="post">
+	<div id="row">
+		<h3>Class Launch</h3>
+		<h3>
+			<span id=""></span>
+		</h3>
+	</div>
+	<div id='row'>
+		<label for='vclass'>Class</label> <input type="text" id='vclass'
+			name='vclass' required size="50" />
+	</div>
+	<div id='row'>
+		<label for='vclassteacher'>Teacher</label> <select id='vclassteacher'
+			name='vclassteacher' required>
+			<option selected>Select</option>
+			{%for item in t%}
+			<option value="{{item.vemployee}}">
+				{#{{item.vemployee}}#}{{item.vfirstname}} {{item.vlastname}}</option>
+			{%endfor%}
+		</select> <a style="font-size: small" {#href="/mgt/teachers/view"
+			#}onclick="javascript: open('/mgt/teachers/view', '_blank', 'width=960,height=600,top, scrollbar=no, dialog=yes')">View</a>
+	</div>
+	{#<div id='row'> <label for='vclassteacher'>Teacher</label> <input
+	type="text" id='vclassteacher' name='vclassteacher' required
+	size="50"/> </div>#}
+	<div id='row'>
+		<label for='vclassname'>Class Description</label> <input type="text"
+			id='vclassname' name='vclassname' required size='23' />
+	</div>
+
+	<div id='row'>
+		<label for='vclassroom'>Room Identification</label> <select
+			id='vclassroom' name='vclassroom' required>
+			<option selected>Select</option>
+			{%for item in cr%}
+			<option value={{item.vclassroom}}>
+				{{item.vclassroom}}
+			</option>
+			{% endfor %}
+		</select>
+	</div>
+	<div id='row'>
+		<label for='bsid'>Class Duration</label> <select id='bsid' name='bsid'
+			required>
+			<option selected>Select</option>
+			{%for item in cd%}
+			<option value="{{item.bsid}}">
+				{{item.vdesc}}
+			</option>
+			{%endfor%}
+		</select>
+	</div>
+	<div id='row'>
+		<label for='ssdaypattern'>Class Pattern</label> <select
+			id='ssdaypattern' name='ssdaypattern' required>
+			<option selected>Select</option>
+			{%for item in dp%}
+			<option value="{{item.ssdaypattern}}">
+				{{item.vshortdesc}}
+			</option>
+			{%endfor%}
+		</select>
+	</div>
+
+	<div id="row">
+		<h3>Attendance</h3>
+		{# <h2><span id=""></span></h2>#}
+	</div>
+	<div id='row'>
+		<label for='vattendanceid'>Attendance Id</label> <input type="text"
+			id="vattendanceid" name="vattendanceid" value="{{att_id}}" required
+			size='23' />
+	</div>
+	<div id='row'>
+		<label for='dstartdate'>Start date</label> <input type="date"
+			id='dstartdate' name='dstartdate' required size='23' />
+	</div>
+	<div id='row'>
+		<label for='denddate'>End date</label> <input type="date"
+			id='denddate' name='denddate' required size='23' />
+	</div>
+	<div id='row'>
+		<label></label>
+		<button id='save' name='save'>Create</button>
+		<button class="cancel" id='cancel' name='cancel'>Cancel</button>
+	</div>
+
+</form>
+{% endblock %}
+{# empty Twig template #}

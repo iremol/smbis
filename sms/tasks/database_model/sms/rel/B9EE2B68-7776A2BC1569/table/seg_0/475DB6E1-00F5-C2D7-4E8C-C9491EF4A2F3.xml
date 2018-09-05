@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="475DB6E1-00F5-C2D7-4E8C-C9491EF4A2F3" schemaObject="4AC3A342-D1E8-0BD7-1EE7-24CBB2CFFDBB" name="sys_class_duratn">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>predef</sourceObjSchema>
+<sourceObjName>sys_class_duratn</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>77C91500-14A4-F422-F4CC-A9D55DCA395F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bsid" id="8C26218F-1942-316C-492A-17C029EAA8CB">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>sys_class_duratn</sourceObjSchema>
+<sourceObjName>bsid</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>DA6FD870-CD42-1BDF-C309-8FE5400F4F73</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<defaultValue>nextval(&apos;predef.sys_class_duratn_bsid_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="siduration" id="2D269913-80EE-2BE4-D75A-440A34C0B743">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>sys_class_duratn</sourceObjSchema>
+<sourceObjName>siduration</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>041E7C12-5CCA-1AB1-EC13-915375F6A7E5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdesc" id="07C3F10A-07DC-64F4-4ED4-38051C3E28EC">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>sys_class_duratn</sourceObjSchema>
+<sourceObjName>vdesc</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>69F9E3B7-F025-84CE-07A9-ECB05AA64403</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8979605-588E-E298-858C-04C3A4525566" name="sys_class_duratn_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>predef</sourceObjSchema>
+<sourceObjName>sys_class_duratn_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>8D262F02-969C-4005-5903-C21DCABF7636</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C26218F-1942-316C-492A-17C029EAA8CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

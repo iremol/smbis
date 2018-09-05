@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DDC2B21-887A-05F2-7E27-FC628D036975" schemaObject="75988CCB-05C8-315E-4651-959E37B1C567" name="attregdetail">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>attregdetail</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>8A58875A-C81A-A8AC-1E69-E814E7406097</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ssattregdetail" id="F9A5E733-E274-364A-7088-B50FE044DB48">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attregdetail</sourceObjSchema>
+<sourceObjName>ssattregdetail</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>CC2ECA5A-6DAA-9269-2F28-D16FDAEBD387</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<defaultValue>nextval(&apos;teaching.attregdetail_ssattregdetail_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contactdate" id="31250B70-2C1F-8490-FE27-28F23B03A21C">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attregdetail</sourceObjSchema>
+<sourceObjName>contactdate</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>A1C20A79-CA87-1791-3554-A8C9932CE133</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vfirstname" id="D5FFD665-7696-D094-7655-6BD9465617D4">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attregdetail</sourceObjSchema>
+<sourceObjName>vfirstname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>8D03D2EB-160E-B4BF-41EA-229D8A960EF0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlastname" id="BD19298D-515C-02C2-8381-205359B8AB5B">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attregdetail</sourceObjSchema>
+<sourceObjName>vlastname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>C4BA8B2F-70F5-141B-C720-5BC3437CB305</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="battendance" id="979ADE13-CE00-A612-B63C-66385F7291CE">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attregdetail</sourceObjSchema>
+<sourceObjName>battendance</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>ACCDCC8D-A8C1-351B-189A-CEB921DC468A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vstudent" id="1CA302DA-C879-E655-77FD-5323C53D4D04">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>attregdetail</sourceObjSchema>
+<sourceObjName>vstudent</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>89D0131F-1693-3A92-8399-18D2C205F229</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D1BB2A9-0C5A-D499-1B71-E30010C7B845" referredColumn="CC0A764C-103F-531E-92CF-42077A039798"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="880FD0D6-BDAE-25A7-479C-6437B8ADE102" name="attregdetail_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>attregdetail_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>2F62FEEF-D3EC-218B-4D64-D08A3307B77D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9A5E733-E274-364A-7088-B50FE044DB48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="275AFCC7-5117-FF6C-3F2F-E189F38EE74F" name="fk_student">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:38 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CA302DA-C879-E655-77FD-5323C53D4D04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

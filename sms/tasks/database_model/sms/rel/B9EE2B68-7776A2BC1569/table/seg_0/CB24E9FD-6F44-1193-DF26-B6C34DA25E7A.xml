@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB24E9FD-6F44-1193-DF26-B6C34DA25E7A" schemaObject="1749930F-98AB-7FCD-8E48-33E21DA5E7EF" name="guardianinfo">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>guardianinfo</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>58226C8C-984E-EC6E-0A89-4641BFAB2A44</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vguardian_info" id="DEB7BE3D-F1E0-E13F-7136-EFBB3648D846">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vguardian_info</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>BEF244C7-43D2-3A73-FAC5-22022B30B1AC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vtitle" id="D9E61C87-435B-F0E6-3235-5D4E2292D432">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vtitle</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>87BC174A-8E1D-666D-FBDC-6C92C2F02708</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vsurname" id="453DD895-903E-B6F9-1E80-09AC62D2E99F">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vsurname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>7CCBD787-C15D-9CA1-46EA-886C6F1BE19F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vfirstname" id="03734CD5-25A2-2FCF-D5F7-118AFA20C506">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vfirstname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>D00F0FF0-9D95-797A-ED7A-C76414D51C7D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vothernames" id="6127D275-073B-47F0-8C75-640D86DC4670">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vothernames</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>B8246A2D-9ABB-1DA3-3E84-284DA93BA594</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vaddress" id="D74065D3-7554-5FA0-F374-A3477B049FCF">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vaddress</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>E4589F9F-5D02-0127-986C-F6AE06FA03D0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vpostcode" id="E56873A7-E927-40FC-110E-73980DB2ABDB">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vpostcode</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>3B19426D-ED76-6E89-7BE1-73A1A843D116</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vemail" id="EC5CEF2C-AEE9-C2C0-55E0-548C0D3DC824">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vemail</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>D9DB1ADE-AB01-AC83-5B33-50814CA3ED20</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>33</dataTypeSize>
+<ownDataTypeParameters>33,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdaytime_no" id="8FC3C806-B0AC-766A-5CD3-C78E840327AB">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vdaytime_no</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>4DA52F55-B0EB-BDD2-FCA5-2267B942F402</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrelationship" id="E412B2A0-8CD4-0021-FDC9-1D75BF269F02">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>guardianinfo</sourceObjSchema>
+<sourceObjName>vrelationship</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>BABE2A9C-B9A7-DB3D-3F16-33709B53FD18</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C9C13F5-F973-EE3B-53CB-4C7822BDB848" name="guardianinfo_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>guardianinfo_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>1C01F7A2-0DD0-E2EC-0619-A3576F9F2C34</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEB7BE3D-F1E0-E13F-7136-EFBB3648D846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="guardianinfo_vemail_check" directorySegmentName="seg_0" id="034BC833-DC8E-6053-4961-9E820075F972">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>1ACCFE5D-9ACF-1B40-1A38-E2BDA790E7E5</importedID>
+<rule>(((vemail)::text ~~ &apos;%_@__%.__%&apos;::text))</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

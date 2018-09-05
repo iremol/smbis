@@ -1,0 +1,10 @@
+{%extends "mgtlayout.twig"%}
+{%block title %}
+    Administrator's Home
+{%endblock%}
+
+{%block content %}
+    {% if msg%}
+        <p> Message: {{msg}} </p>
+    {% endif %}
+{%endblock %}

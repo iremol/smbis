@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C985808-DF5C-500F-ECE8-8E8F39E2484B" containerWithKeyObject="83C2DC50-D4D5-EFAB-A76D-EA2811356790" localFKIndex="8BC27C40-4671-4448-18D1-53DFC397A724" name="fkattreg">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>fkattreg</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:38 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>F529D244-9684-EB44-02DC-5EFBA9879AFB</importedID>
+<referredTableLongName>teaching.attreg</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0372D69D-908D-471A-A039-4ADA0B3B8C68</referredTableID>
+<keyObject>76F06A2E-816A-0B18-80A5-6A012870A32E</keyObject>
+<referredKeyID>76F06A2E-816A-0B18-80A5-6A012870A32E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vattreg</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

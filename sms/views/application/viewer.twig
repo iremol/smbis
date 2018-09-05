@@ -1,0 +1,47 @@
+{%extends "layout.twig"%}
+{%block title %}
+    New Application
+{%endblock%}
+
+{%block content %}
+    <div style="float: clear"> 
+        <div style="float: left">
+            <div>
+                <p><strong>Bio Information</strong></p>
+                First Name:     {{bio.vfirstname}} <br>
+                Other Name:     {{bio.vothernames}} <br>
+                Surname:     {{bio.vsurname}} <br>
+                Gender:     {{bio.vgender}} <br>
+                Date of Birth:     {{bio.ddob}} <br>
+                Address: {{bio.vaddress}} <br>
+                Picture: {{bio.vpic}}
+            </div>
+
+            <div>
+                <p><strong>Guardian Information</strong></p>
+                Title : {{gua.vtitle}} <br>
+                First Name: {{gua.vfirstname}} <br>
+                Other Name: {{gua.vothernames}} <br>
+                Surname: {{gua.vsurname}} <br>
+                Address: {{gua.vaddress}} <br>
+                Postcode: {{gua.vpostcode}} <br>
+                Email: {{gua.vemail}} <br>
+                Daytime Number: {{gua.vdaytime_no}} <br>
+                Relationship : {{gua.vrelationship}} 
+
+            </div>
+        </div>
+        <div style="float: right">
+            <div>
+                <p><strong>Education Information</strong></p>
+                Trainer Name : {{edu.vtrainer_name}} <br>
+                Contact Number: {{edu.vphone_num}} <br>
+                Address: {{edu.vaddress}} <br>
+            </div>
+            <div>
+                <p><strong>Medical Information </strong></p>
+                Conditions : {{med.vconditions}}
+            </div>
+        </div>
+    </div>
+{%endblock %}{# empty Twig template #}

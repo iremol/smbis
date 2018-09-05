@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DEB53AD-F11A-74F4-5F10-8C411C8B1363" schemaObject="974B2E02-41CD-5F78-2D61-07B8339E7083" name="class">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>class</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vclass" id="76C97086-42CB-CB0E-3385-C184EAAF86EA">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>class</sourceObjSchema>
+<sourceObjName>vclass</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vclassteacher" id="91D35F06-91D2-0642-2935-575DDA8CC392">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>class</sourceObjSchema>
+<sourceObjName>vclassteacher</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63CAA223-65AF-2B51-EC33-F9F31774C9EE" referredColumn="CF87BC45-1E5D-DEE6-628A-293982A198DD"/>
+</associations>
+</Column>
+<Column name="vclassname" id="41FAEBE6-587F-833B-E2ED-4B22F966387E">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>class</sourceObjSchema>
+<sourceObjName>vclassname</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vclassroom" id="868D37E5-1998-A1C0-8A30-5F6970BA22C6">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>class</sourceObjSchema>
+<sourceObjName>vclassroom</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6F1017F-77F0-A2F3-2666-9DE2EAC18401" referredColumn="0D51CC41-C95A-81E5-FC22-BAF439F4F1A9"/>
+</associations>
+</Column>
+<Column name="bsid" id="748B7D29-B108-0AEF-B590-3CA0AB27FCDD">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>class</sourceObjSchema>
+<sourceObjName>bsid</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70FE260E-8117-57A2-EB82-6448364EFD35" referredColumn="C4B7AC2C-80A5-8874-F449-B978B9F6FB88"/>
+</associations>
+</Column>
+<Column name="vattreg" id="2C7D2F08-822C-D2FA-27A0-E4D5D49653D3">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>class</sourceObjSchema>
+<sourceObjName>vattreg</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79AF96EB-3533-FB2C-86E0-F16C541F39FD" referredColumn="EE9008E1-A351-0A9A-AF50-E2431A7377A6"/>
+</associations>
+</Column>
+<Column name="ssdaypattern" id="380A9061-F6A4-2C2E-A0F6-B02FBC96CF31">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>class</sourceObjSchema>
+<sourceObjName>ssdaypattern</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDDA2074-55A1-FD20-8901-B10390B5B4F6" referredColumn="BCF139C5-C7FF-6963-3626-7AA696ECB050"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42C1B9FF-A74C-3FA8-6157-7B7F4384FD40" name="class_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>class_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76C97086-42CB-CB0E-3385-C184EAAF86EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66E7FA41-2FFD-A024-4D54-A88A0BB945DE" name="fkemployee">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91D35F06-91D2-0642-2935-575DDA8CC392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05FD2E3A-B220-AA03-0E68-4F767DF17D65" name="fkclass_duratn">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="748B7D29-B108-0AEF-B590-3CA0AB27FCDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD2BF91A-1197-5B42-0E08-6B3F175B2C9C" name="fkvattreg">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C7D2F08-822C-D2FA-27A0-E4D5D49653D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="189CEC93-8793-3B36-BD93-A333FDD14B47" name="fkvclassrm">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="868D37E5-1998-A1C0-8A30-5F6970BA22C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E257D7B-8570-107C-B1A8-52D1ACE3F9FF" name="fkssdaypattern">
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="380A9061-F6A4-2C2E-A0F6-B02FBC96CF31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,35 @@
+{%extends "aolayout.twig"%}
+{%block title %}
+    Admit Candidate {{app}}
+{%endblock%}
+
+{%block content %}
+    <form id="form" action="/admission/student/save" method="post">
+        <div id="row">
+            <h2>New Student</h2>
+            <h2><span id=""></span></h2>
+        </div>
+        <div id='row'>
+            <label for='vapplication'>Application Number</label>
+            <input type="text" id='vapplication' name='vapplication' required size="50" value="{{app}}"/>
+        </div>
+
+        <div id='row'>
+            <label for='vclass'>Class</label>
+            <select id='vclass' name='vclass' required>
+                <option selected>Select</option>
+                {%for item in c%}
+                    <option value="{{item.vclass}}">  {{item.vclass}} </option>
+                {%endfor%}
+            </select>
+
+        </div>
+
+        <div id='row'>
+            <label></label>
+            <button id='save' name='save'>Admit</button>
+            <button class="cancel" id='cancel' name='cancel'>Cancel</button>
+        </div>
+
+    </form>
+{%endblock %}

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F05E7A39-73EC-91DC-F5F6-7E1CA0D253F7" schemaObject="32108625-5533-5210-2516-93E0AAD6AA5F" name="login">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>admission</sourceObjSchema>
+<sourceObjName>login</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>03DA161D-1821-6A3A-3A70-FE2B51B4F656</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vusername" id="8C4475A0-4458-E50C-2A3E-B10BD7608DE2">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>login</sourceObjSchema>
+<sourceObjName>vusername</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>BC8A0997-6422-8345-7C45-485EEC1F57E8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vpassword" id="5ADD8843-D6D8-106A-0A90-BBCA5F37582A">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>login</sourceObjSchema>
+<sourceObjName>vpassword</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>974CEBB6-4417-D72B-06AE-9C2611647C20</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D2EAD3B-249C-A2BB-C76A-4B3450BD26CD" name="login_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>admission</sourceObjSchema>
+<sourceObjName>login_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>44E8B0FA-72D5-0E45-EAEF-AF85FCCA2182</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C4475A0-4458-E50C-2A3E-B10BD7608DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

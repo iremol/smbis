@@ -1,0 +1,22 @@
+{
+    "name" : "tie/sms",
+    "description" :  "School Management Software",
+    "minimum-stability" : "stable",
+    "license" : "Apache-2.0",
+    "type" : "project",
+    "authors" : [
+        {
+            "name" : "Imole Akpobome",
+            "email" : "imole.akpobome@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23",
+        "twig/twig": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "sms\\": "src"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE2E8257-DA89-7CCB-60DF-7F68C4986A8E" schemaObject="1749930F-98AB-7FCD-8E48-33E21DA5E7EF" name="medicalinfo">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>medicalinfo</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>B7B8A607-9A0C-AD2D-D62A-36282F0807EF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vmedical_info" id="7DE5B2C5-AB70-AD26-C8A8-AEE565BA9675">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>medicalinfo</sourceObjSchema>
+<sourceObjName>vmedical_info</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>C29AB3D3-D908-615B-BDF2-FC5325868411</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vconditions" id="C23DCCFF-DCB6-DB49-4CC3-A6C748A4A8EF">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>medicalinfo</sourceObjSchema>
+<sourceObjName>vconditions</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>CF24F259-1A53-B360-A3B8-28EAAC2E392E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59E7420F-1F01-076B-C0E1-DF6FF7CEFA26" name="medicalinfo_pkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>medicalinfo_pkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>F4E5961C-2882-3732-4E45-97DD631142DB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DE5B2C5-AB70-AD26-C8A8-AEE565BA9675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

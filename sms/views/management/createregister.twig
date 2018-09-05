@@ -1,0 +1,101 @@
+{% extends "mgtlayout.twig" %}
+{% block title %}
+New Attendance Launch
+{% endblock %}
+
+{% block content %}
+{%  if msg%}
+<p>
+	Message:
+	{{msg}}
+</p>
+<script>
+	// window.location.href = '/mgt/classroom/new';
+</script>
+{% endif %}
+
+<form id="form" action="/mgt/register/create" method="post">
+	<div id="row">
+		<h3>Attendance</h3>
+		<h3>
+			<span id=""></span>
+		</h3>
+	</div>
+	<div id='row'>
+		<label for='vattendanceid'>Attendance Id</label> <input type="text"
+			id="vattendanceid" name="vattendanceid" value="{{att_id}}" readonly
+			required size='23' title="Attendance identification number"
+			style="margin-right: 350px;" class="width" />
+	</div>
+	<div id='row'>
+		<label for='ssdaypattern'>Class Pattern</label> <select
+			id='ssdaypattern' name='ssdaypattern' title="Frequency of the class"
+			required>
+			<option selected>Select</option>
+			{%for item in dp%}
+			<option value="{{item.ssdaypattern}}">
+				{{item.vshortdesc}}
+			</option>
+			{%endfor%}
+		</select>
+	</div>
+	<div id='row'>
+		<label for='bsid'>Class Duration</label> <select id='bsid' name='bsid'
+			onchange='reloadDate()' required
+			title="The duration for which the class will be active">
+			<option selected>Select</option>
+			{%for item in cd%}
+			<option value="{{item.siduration}}">
+				{{item.vdesc}}
+			</option>
+			{%endfor%}
+		</select>
+	</div>
+	<div id='row'>
+		<label for='dstartdate'>Start date</label> <input
+			title="Starting date of the class" placeholder="Start Date"
+			type="date" id='dstartdate' name='dstartdate' required size='23'
+			onchange="updateDate()" class="width" />
+	</div>
+
+	<div id='row'>
+		<label for='denddate'>End date</label> <input placeholder="End Date"
+			type="text" id='denddate' name='denddate' readonly required size='23'
+			onfocus="updateDate()" title="End date of the class" class="width" />
+		<script>
+			var reloadDate = function() {
+				var e1 = $("dstartdate");
+				var e2 = $("denddate");
+				var d = new Date(e1.value);
+				var str = d.addDays(Number.parseInt($("bsid").value))
+						.toISOString();
+				e2.value = str.substring(0, str.indexOf('T')).replace(/-/gi,
+						'/').formatDate();
+				//e2.value = d.addDays(2).toDateString();
+			}
+			var updateDate = function() {
+				var e1 = $("dstartdate");
+				var e2 = $("denddate");
+				var d = new Date(e1.value);
+				try {
+					var str = d.addDays(Number.parseInt($("bsid").value))
+							.toISOString();
+				} catch (err) {
+					alert("Please select Class Duration / Select start date");
+					$("bsid").focus();
+				}
+				e2.value = str.substring(0, str.indexOf('T')).replace(/-/gi,
+						'/').formatDate();
+				//e2.value = d.addDays(2).toDateString();
+			}
+		</script>
+	</div>
+	<div id='row'>
+		<label></label>
+		<button id='save' name='save'>Create</button>
+		<button class="cancel" id='cancel' name='cancel'>Cancel</button>
+	</div>
+
+</form>
+{%endblock %}
+{# empty Twig template #}

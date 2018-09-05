@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="176D5721-23CA-0433-27CE-0AF260A16F8C" containerWithKeyObject="82927B12-DF65-7E6C-0C3F-CA88EAB4A9FC" localFKIndex="8AEA3A2C-DA53-812A-AC05-749889653E8D" name="candidate_vapplication_fkey">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>public</sourceObjSchema>
+<sourceObjName>candidate_vapplication_fkey</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<referredTableLongName>public.application</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BAA777D0-E330-543A-0D74-B143A02B9BAC</referredTableID>
+<keyObject>A00A6475-85AE-69A1-79A3-89964C93C88E</keyObject>
+<referredKeyID>A00A6475-85AE-69A1-79A3-89964C93C88E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>vapplication</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

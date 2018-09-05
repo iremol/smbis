@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDDA2074-55A1-FD20-8901-B10390B5B4F6" containerWithKeyObject="3DEB53AD-F11A-74F4-5F10-8C411C8B1363" localFKIndex="5E257D7B-8570-107C-B1A8-52D1ACE3F9FF" name="fkssdaypattern">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>fkssdaypattern</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-04-10 20:47:42 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<referredTableLongName>teaching.daypattern</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3EF833EE-B61F-ECE0-3210-21C51FE12611</referredTableID>
+<keyObject>12E7E4E9-7E8D-9BF8-173B-6EA7168DACD6</keyObject>
+<referredKeyID>12E7E4E9-7E8D-9BF8-173B-6EA7168DACD6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ssdaypattern</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

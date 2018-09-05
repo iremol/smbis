@@ -1,0 +1,125 @@
+{# empty Twig template #}
+<html>
+<head>
+<title>{%block title %}{%endblock%}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="../../images/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="../../css/main.css" />
+{# <link rel="stylesheet"
+href="https://www.w3schools.com/w3css/4/w3.css">#}
+<link type="text/css" rel="stylesheet" href="../../css/w3.css" />
+
+<script type="text/javascript" src="../../js/main.js"></script>
+<script type="text/javascript" src="../../js/tippy.all.min.js"></script>
+
+</head>
+<body>
+	<div id='nav'>
+		{# <ul> <li>Home</li> <li>About us</li> {# <li>Apply</li>
+		<li>FAQs</li> <li><a#} {#
+		href="../src/testviewtestimony.php">Testimony</a></li> <li>Contact#}
+		{# us</li> </ul>#} {# <h1>School Management Service</h1>#}
+		<h2>School Software Management Service</h2>
+	</div>
+
+	{# <div id="container">#}
+
+	<!--Start of Sidebar-->
+	{# <div class="w3-sidebar w3-bar-block w3-card w3-animate-left"
+	style="display:none" id='sidenav'>#} {# <button onclick="w3_close()"
+	class="w3-bar-item w3-large">Close#} {# &times;</button>#}
+	<div id="sidenav">
+		<ul>
+			{#{dump(_context)}#}
+			{% if uname %}
+			<li style="background-color: #6f6; color: #050">{{uname | upper}}</li>
+			<li class="submenu">Attendance
+				<ul class="innerul">
+					<li>Create
+						<ul>
+							<li class="c"><a href='/mgt/register/new'>Register</a></li>
+						</ul>
+					</li>
+					<li>View
+						<ul>
+							<li class="c"><a href='/mgt/att/inactive'>Inactive</a></li>
+							<li class="c"><a href='/mgt/att/gen'>Active</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li class="submenu">Class
+				<ul class="innerul">
+					<li>New</a>
+						<ul>
+							<li class="c"><a href='/mgt/class/new'>Class</a>
+						</ul>
+						<ul>
+							<li class="c"><a href='/mgt/classroom/new'>Classroom</a>
+						</ul>
+					</li>
+					<li>View</a>
+						<ul>
+							<li class="c"><a href='/mgt/classes/view'>Class</a>
+						</ul>
+					</li>
+				</ul>
+
+			</li>
+			<li class="submenu">Structure
+				<ul class="innerul">
+					<li>New
+						<ul>
+							<li class="c"><a href='/mgt/position/new'>Position</a>
+						</ul>
+						<ul>
+							<li class="c"><a href='/mgt/department/new'>Department</a>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="submenu">Users
+				<ul class="innerul">
+					<li class="c"><a href='/admission/c/view'>Create </a>
+				</ul>
+			</li>
+
+			<li class="c"><a href='/mgt/logout'>Logout</a></li>
+			{% else %}
+			<li class="c"><a href='/mgt/login'>Login</a></li>
+			<!--<li class="c"><a href='/application/new' >New Application</a></li>-->
+			{% endif %}
+			<!--<li style="background-color: #6f6; color:#050">{{app}}</li>-->
+
+			<!--<li class="c"><a href={{link}} >{{command}}</a></li>-->
+
+			<!--<li class="c"><a href='../login.php' >Sponsor Login</a></li>-->
+		</ul>
+	</div>
+	<!--End of Sidebar-->
+
+
+	<!-- Start of Main Content-->
+	<div id="content">
+		{# <div class="w3-white">#} {# <button id="openNav" class="w3-button
+		w3-white w3-xlarge"#} {# onclick="w3_open()">&#9776;</button>#} {#
+		<div class="w3-container">#} {# <h2>School Software Management
+		Service</h2>#} {# </div>#} {# </div>#}
+		{%block content %}
+		{%endblock%}
+		<!-- End of Main Content-->
+	</div>
+	<script>
+		tippy('[title]', {
+			  delay: 200,
+			  arrow: true,
+			  arrowType: 'sharp',
+			  size: 'large',
+			  duration: 500,
+			  animation: 'scale',
+			  placement: 'right'
+			});
+	</script>
+</body>
+</html>

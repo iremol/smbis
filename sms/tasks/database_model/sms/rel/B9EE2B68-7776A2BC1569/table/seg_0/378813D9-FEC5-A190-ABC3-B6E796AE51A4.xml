@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="378813D9-FEC5-A190-ABC3-B6E796AE51A4" schemaObject="75988CCB-05C8-315E-4651-959E37B1C567" name="daypattern">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>daypattern</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>8B3C0837-0DA5-ABCA-65FB-CB6537445550</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ssdaypattern" id="4DF57BE7-D122-13AC-55B4-3E8E501DBA52">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>daypattern</sourceObjSchema>
+<sourceObjName>ssdaypattern</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>41B29E24-B486-E2D0-3D93-6721254CB6CF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<defaultValue>nextval(&apos;teaching.daypattern_ssdaypattern_seq&apos;::regclass)</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vshortdesc" id="359B8064-94E5-8410-396D-F55E017CD7E6">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>daypattern</sourceObjSchema>
+<sourceObjName>vshortdesc</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>B275870E-9491-5CD6-1DF0-7368681CDCC2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdesc" id="4041AB47-BF34-B8B9-2E5E-5AB75751C966">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>daypattern</sourceObjSchema>
+<sourceObjName>vdesc</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>36A227B7-124C-8485-0069-75D82444CC5E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58FD41A2-A809-7C83-13BC-C3EAAAB4E5F0" name="pkssdaypattern">
+<sourceConnName>sms_con</sourceConnName>
+<sourceObjSchema>teaching</sourceObjSchema>
+<sourceObjName>pkssdaypattern</sourceObjName>
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>779EDCD6-2458-DA96-1BA6-053473F3178F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DF57BE7-D122-13AC-55B4-3E8E501DBA52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

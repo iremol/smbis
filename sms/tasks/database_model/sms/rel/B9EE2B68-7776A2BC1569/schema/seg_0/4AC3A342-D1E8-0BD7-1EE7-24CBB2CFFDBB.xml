@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="predef" directorySegmentName="seg_0" id="4AC3A342-D1E8-0BD7-1EE7-24CBB2CFFDBB">
+<createdBy>root</createdBy>
+<createdTime>2018-05-02 05:23:37 UTC</createdTime>
+<ownerDesignName>sms</ownerDesignName>
+<importedID>9B9F2546-83CE-5AD2-BC65-4AB57DD2DC78</importedID>
+</SchemaObject>
